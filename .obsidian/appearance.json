@@ -1,0 +1,15 @@
+{
+  "cssTheme": "Mado Miniflow",
+  "baseFontSize": 16,
+  "theme": "moonstone",
+  "interfaceFontFamily": "Calibri",
+  "textFontFamily": "Segoe UI,Calibri",
+  "enabledCssSnippets": [
+    "big-math",
+    "justice",
+    "center-image"
+  ],
+  "accentColor": "",
+  "translucency": false,
+  "monospaceFontFamily": "Courier New,Fira Code Light"
+}

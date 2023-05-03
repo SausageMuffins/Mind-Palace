@@ -1,0 +1,14 @@
+{
+  "cssTheme": "Atom",
+  "baseFontSize": 17,
+  "theme": "obsidian",
+  "interfaceFontFamily": "Adobe Heiti Std,Calibri",
+  "textFontFamily": "Calibri",
+  "enabledCssSnippets": [
+    "big-math",
+    "justice",
+    "center-image"
+  ],
+  "accentColor": "#e3967d",
+  "translucency": false
+}

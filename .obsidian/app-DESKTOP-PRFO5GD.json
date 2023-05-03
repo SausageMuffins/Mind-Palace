@@ -1,0 +1,28 @@
+{
+  "legacyEditor": false,
+  "livePreview": false,
+  "spellcheck": true,
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "inbox",
+  "attachmentFolderPath": "inbox/Attachments",
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "Templates/",
+    "vs code stuff/",
+    "Attachments/",
+    "inbox/Attachments/"
+  ],
+  "showLineNumber": true,
+  "autoPairBrackets": true,
+  "showIndentGuide": true,
+  "useTab": true,
+  "defaultViewMode": "source",
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

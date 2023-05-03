@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "d340f37c193932b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1a2446b980ad46e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "450109e2d5e0d9e1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "13a9ec50ccc19f43",
+    "type": "split",
+    "children": [
+      {
+        "id": "98f32d27d0dbed5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "524af9f095eff6d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ab17ea126a26a2d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#layer2",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c66fbe022d4783d3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 223.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "35eb7310ba541277",
+    "type": "split",
+    "children": [
+      {
+        "id": "9698d8b8097eaae4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d36afad1ef150f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "55a475daa49aae74",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5063cbfe547058f4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2) Data Driven World/week 2/Binary Heaps.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9adcf7cfdfcdb111",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ce5c8cbd21346ed6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+    }
+  },
+  "active": "450109e2d5e0d9e1",
+  "lastOpenFiles": [
+    "inbox/Combinational Device.md",
+    "inbox/Lecture 01.02 The Digital Abstraction.md",
+    "inbox/Voltage Transfer Characteristic Function (VTC).md",
+    "inbox/Violate Static Discipline.md",
+    "inbox/Noise Immunity.md",
+    "inbox/Voltage Specifications and Noise margin.md",
+    "inbox/Encoding Information using Voltages.md",
+    "inbox/Values of Operating Voltages.md",
+    "Details/Term 4/50.002 Computation Structures.md",
+    "Cheat Sheets/SUTD Term 4 Cheat Sheet.md"
+  ]
+}

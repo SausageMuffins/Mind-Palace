@@ -1,0 +1,28 @@
+{
+  "legacyEditor": false,
+  "livePreview": false,
+  "spellcheck": true,
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Notes",
+  "attachmentFolderPath": "Attachments",
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "Templates/",
+    "vs code stuff/",
+    "Attachments/"
+  ],
+  "showLineNumber": true,
+  "autoPairBrackets": true,
+  "showIndentGuide": true,
+  "useTab": true,
+  "defaultViewMode": "source",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "1",
+    "downscalePercent": 80
+  },
+  "showFrontmatter": true
+}

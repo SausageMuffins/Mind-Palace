@@ -1,0 +1,37 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "🔍",
+      "📅",
+      "🌆",
+      "📖",
+      "🥀",
+      "🪴",
+      "🍆"
+    ],
+    "recentlyUsedIconsSize": 7,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "emojiStyle": "native"
+  },
+  "1. Personal Work": "🥵",
+  "2. School Work": "😉",
+  "Templates": "📑",
+  "Cheat Sheets": "🍆",
+  "Fact Sheets": "🥀",
+  "inbox": "📧",
+  "inbox/Attachments": "💆‍♂️",
+  "Notes": "📖",
+  "Attachments": "🌆",
+  "Calendar": "📅",
+  "Meetings": "🔍"
+}

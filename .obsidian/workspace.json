@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "d340f37c193932b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d6ae92047afd2b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f8b058b28813f8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_000 Work Bench.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76fc4120b1ece928",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Programming MOC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0938314691a0ba37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Numpy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "13a9ec50ccc19f43",
+    "type": "split",
+    "children": [
+      {
+        "id": "98f32d27d0dbed5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "524af9f095eff6d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ab17ea126a26a2d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Encapsu",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c66fbe022d4783d3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "79c08247522f930c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 223.5
+  },
+  "right": {
+    "id": "35eb7310ba541277",
+    "type": "split",
+    "children": [
+      {
+        "id": "9698d8b8097eaae4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55a475daa49aae74",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Numpy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1d36afad1ef150f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9adcf7cfdfcdb111",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/Numpy.md"
+              }
+            }
+          },
+          {
+            "id": "ce5c8cbd21346ed6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 280.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "0938314691a0ba37",
+  "lastOpenFiles": [
+    "Notes/Programming MOC.md",
+    "Notes/Numpy.md",
+    "_000 Work Bench.md",
+    "Notes/Computer Vision MOC.md",
+    "Notes/_030 Software Engineering MOC.md",
+    "Notes/_020 Computer Engineering MOC.md",
+    "Notes/_010 Machine Learning MOC.md",
+    "Templates/DataView/Notes YAML.md",
+    "Meetings/Kick-Off Meeting with Prof Kenny.md",
+    "Templates/DataView/Meeting YAML.md",
+    "Notes/Interests/Learning How To Learn.md",
+    "Templates/DataView/DV_TASK.md",
+    "Templates/DataView/DV_TABLE.md",
+    "Templates/DataView/DV_LIST.md",
+    "Templates/DataView/MOC YAML.md",
+    "Notes/Interests/Teachings Page.md",
+    "Notes/Interests/Creating a Portfolio Website.md",
+    "Notes/Obsidian/Mastering Obsidian MOC.md",
+    "Notes/Interests",
+    "Notes/Obsidian/MarkDown Cheat Sheet For Obsidian.md",
+    "Notes/Obsidian/YAML Cheat Sheet.md",
+    "Templates/DataView/CheatSheet YAML.md",
+    "Templates/DataView",
+    "Notes/Obsidian/DataView Cheat Sheet.md",
+    "Notes/Obsidian",
+    "Notes/[MarkDown CheatSheet For Obsidian.md",
+    "Meetings",
+    "Attachments/Pasted image 20230501140634.png",
+    "Attachments/Pasted image 20230501131731.png",
+    "Attachments/Pasted image 20230501131707.png",
+    "Attachments/Pasted image 20230501130710.png",
+    "Calendar",
+    "_030 Machine Learning MOC.md~RF330de6b6.TMP",
+    "Attachments",
+    "Notes",
+    "Cheat Sheets/Java Design Notes.md",
+    "Cheat Sheets/Java.md",
+    "Cheat Sheets/Android App.md",
+    "inbox/Attachments/Pasted image 20230420221954.png",
+    "inbox/Attachments/Pasted image 20230419140954.png",
+    "inbox/Attachments/Pasted image 20230419120254.png",
+    "inbox/Attachments/Pasted image 20230419105451.png",
+    "inbox/Attachments/Pasted image 20230406113808.png",
+    "inbox/Attachments/Pasted image 20230406113805.png"
+  ]
+}

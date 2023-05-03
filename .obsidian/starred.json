@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "python",
+      "path": "Mind Palace/Science/Computer Science/easy stuff/Python.md"
+    },
+    {
+      "type": "file",
+      "title": "Statistics Map of Content",
+      "path": "Statistics Map of Content.md"
+    },
+    {
+      "type": "file",
+      "title": "SolidWorks",
+      "path": "Idea Bank/SolidWorks.md"
+    },
+    {
+      "type": "file",
+      "title": "How to Not Die Alone",
+      "path": "Idea Bank/Writing stuff/How to Not Die Alone.md"
+    },
+    {
+      "type": "file",
+      "title": "Writing",
+      "path": "Idea Bank/Writing stuff/Writing.md"
+    },
+    {
+      "type": "file",
+      "title": "Computer Science",
+      "path": "Fact Sheets/Computer Science.md"
+    }
+  ]
+}

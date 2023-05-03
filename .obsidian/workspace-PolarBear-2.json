@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "d340f37c193932b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "7eb64e727cc64be8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a6850cb6edc7abd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "9df8a321c38eb164",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "c65bd61e57ebf6fd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "13a9ec50ccc19f43",
+    "type": "split",
+    "children": [
+      {
+        "id": "98f32d27d0dbed5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "524af9f095eff6d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ab17ea126a26a2d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Encapsu",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c66fbe022d4783d3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 223.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "35eb7310ba541277",
+    "type": "split",
+    "children": [
+      {
+        "id": "9698d8b8097eaae4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55a475daa49aae74",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1d36afad1ef150f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9adcf7cfdfcdb111",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ce5c8cbd21346ed6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 280.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+    }
+  },
+  "active": "c65bd61e57ebf6fd",
+  "lastOpenFiles": [
+    "Cheat Sheets/Java Design Notes.md",
+    "Cheat Sheets/Java.md",
+    "Cheat Sheets/Android App.md",
+    "inbox/Attachments/Pasted image 20230420221954.png",
+    "Cheat Sheets/Java Week 8 to 13.md",
+    "inbox/Attachments/Pasted image 20230419140954.png",
+    "inbox/Attachments/Pasted image 20230419120254.png",
+    "inbox/Attachments/Pasted image 20230419105451.png",
+    "Cheat Sheets/Term 4 Cheat Sheet.md",
+    "inbox/Aiya Technical Documentation.md",
+    "Cheat Sheets/Lucid Cheat Sheet.md",
+    "inbox/Attachments/Pasted image 20230406113808.png",
+    "inbox/Attachments/Pasted image 20230406113805.png",
+    "inbox/Attachments/Pasted image 20230402204346.png",
+    "inbox/Attachments/shifter8.png",
+    "inbox/Attachments/Pasted image 20230402202804.png",
+    "inbox/Attachments/Pasted image 20230402202518.png",
+    "Cheat Sheets/Git.md",
+    "Cheat Sheets/Algorithms 1D Project Report.md",
+    "Details/Hardware/week 2 lab CMOS.md",
+    "Details/Data Structures/Graphs/Graphs.md",
+    "Details/Data Structures/Graphs/Breadth First Search.md",
+    "Details/Psychology/05 Intelligence.md",
+    "Details/OOP/Object Oriented Programming (OOP).md",
+    "Details/OOP/Encapsulation.md",
+    "Details/Java/Java Object Oriented Programming.md",
+    "Details/Java/Java Basics and Syntax.md",
+    "Details/Java/Interface.md",
+    "Details/Psychology/Brain Basics.md",
+    "Details/Psychology/08 Development.md",
+    "Details/Psychology/06 Social Psychology.md",
+    "Details/Psychology/04 Memory.md",
+    "Details/Psychology/03 Learning.md",
+    "Cheat Sheets/XML.md",
+    "Details/Psychology/Psychology Flashcards.md"
+  ]
+}
