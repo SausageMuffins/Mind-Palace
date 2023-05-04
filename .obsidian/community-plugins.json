@@ -12,5 +12,6 @@
   "dataview",
   "todoist-sync-plugin",
   "obsidian-full-calendar",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-git"
 ]

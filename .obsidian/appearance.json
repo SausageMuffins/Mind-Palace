@@ -1,7 +1,7 @@
 {
   "cssTheme": "Mado Miniflow",
-  "baseFontSize": 16,
-  "theme": "moonstone",
+  "baseFontSize": 17,
+  "theme": "obsidian",
   "interfaceFontFamily": "Calibri",
   "textFontFamily": "Segoe UI,Calibri",
   "enabledCssSnippets": [

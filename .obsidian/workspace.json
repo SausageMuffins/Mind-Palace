@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_000 Work Bench.md",
+                "file": "Notes/Numpy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "Notes/Numpy.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 230
   },
   "left-ribbon": {
     "hiddenItems": {
