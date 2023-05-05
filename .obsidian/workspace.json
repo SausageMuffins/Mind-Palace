@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "6dd415e0a3c56a7c",
+        "id": "a8bec898d5102f07",
         "type": "tabs",
         "children": [
           {
-            "id": "1aeebcf866020c58",
+            "id": "19cfd8d5d8e2d599",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Numpy.md",
+                "file": "Computer Vision MOC.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c67d28b2c0055c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Image Basics with OpenCV.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Numpy.md",
+                "file": "Notes/Image Basics with OpenCV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Numpy.md"
+                "file": "Notes/Image Basics with OpenCV.md"
               }
             }
           },
@@ -139,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230
+    "width": 230,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -152,16 +167,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1aeebcf866020c58",
+  "active": "3c67d28b2c0055c9",
   "lastOpenFiles": [
+    "Computer Vision MOC.md",
+    "Notes/Image Basics with OpenCV.md",
+    "Programming MOC.md",
     "Notes/Numpy.md",
     "Attachments/Pasted image 20230505185105.png",
     "Attachments/Pasted image 20230505185012.png",
     "Attachments/Pasted image 20230505184957.png",
     "_020 Computer Engineering MOC.md",
     "_010 Machine Learning MOC.md",
-    "Programming MOC.md",
-    "Computer Vision MOC.md",
     "_030 Software Engineering MOC.md",
     "_000 Work Bench.md",
     "Notes/Programming MOC.md",

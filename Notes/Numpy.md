@@ -3,7 +3,7 @@ tags: Programming
 date: 03-05-2023
 type: 
  Note
- Incomplete
+ Complete
 summary: Contains all information about Numpy Arrays in Python
 ---
 

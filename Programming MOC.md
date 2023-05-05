@@ -18,7 +18,12 @@ SORT date asc
 ---
 
 ## Concepts
-
+```dataview
+LIST 
+FROM #Programming 
+WHERE contains(type, "Complete")
+SORT file.name asc
+```
 
 
 
