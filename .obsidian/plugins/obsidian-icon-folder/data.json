@@ -21,7 +21,8 @@
       "bottom": 0,
       "left": 0
     },
-    "emojiStyle": "native"
+    "emojiStyle": "native",
+    "iconInTabsEnabled": false
   },
   "1. Personal Work": "🥵",
   "2. School Work": "😉",

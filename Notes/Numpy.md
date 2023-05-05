@@ -68,22 +68,67 @@ mynewmat[0:6,:] = 999 # convert row 0 to 6 exclusive and all the columns in thes
 ## Images and Numpy
 In general, images are just matrices, each pixel as an element in a matrix.
 
-Numpy arrays can handle image resolution with shape.
-
 ```py
 # example of a 720x1280 pixel colored image.
 array = np.zeros(shape=(720,1280, 3)) # 3 color channel
 ```
 
-#### Greyscale Images
-Every element in the matrix contains a value from 0 to 1. (normalized by dividing 255)
-
-0: White
-1: Black
-
-#### Colour Images
-A colour will have a combination of Red, Green and Blue.
-
-Each colour have various intensities of R,G,B ranging from 0 to 255.
+**Import the following libraries to see the images!**
+```py
+# Important Imports! #
+import matplotlib.pyplot as plt
+from PIL import Image
+```
 
 
+#### Color Images
+A color will have a combination of Red, Green and Blue. Each color have various intensities of R,G,B ranging from 0 to 255.
+
+Referencing an image in python:
+```python
+# Getting a reference to the image.
+pic = Image.open("C:\\Users\\nryan\\OneDrive\\Desktop\\00-puppy.jpg")
+
+pic # display the image.
+
+type(pic) 
+# This is still an object of type PIL.JpegImagePlugin.JpegImageFile
+```
+
+#### Converting Images to Numpy
+```python
+# converting to numpy array
+pic_arr = np.asanyarray(pic)
+
+print(pic_arr.shape) # resolution of image and the three colour channels
+# output: (1300, 1950, 3) 
+
+# Showing Images
+plt.imshow(pic_arr) # argument for imshow must be a numpy array.
+```
+
+![[Pasted image 20230505185105.png]]
+
+#### Grayscale Images
+Every element in the matrix can contain a value from 0 to 1. (normalized by dividing 255)
+
+Grayscaling images in python:
+```python
+# make a copy to get only the red channel.
+copied_red = pic_arr.copy() 
+# changing the colour mapping of matplotlib to grayscale image.
+plt.imshow(copied_red, cmap="gray") 
+```
+
+![[Pasted image 20230505185012.png]]
+
+#### Altering Color Channels
+```python
+copied_picture = pic_arr.copy() # numpy deep copy
+copied_picture[:,:,1] = 0 # set green channel to 0
+copied_picture[:,:,2] = 0 # set blue channel to 0
+
+plt.imshow(copied_picture) # only have values in red channel.
+```
+
+![[Pasted image 20230505184957.png]]
