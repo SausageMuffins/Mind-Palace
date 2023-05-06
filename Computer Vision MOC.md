@@ -49,3 +49,15 @@ jupyter-lab
 ```
 
 The block of code in anaconda prompt should get you going.
+
+## Using VS Code
+
+I prefer using VS code and anaconda's environment to work with code.
+
+However, we have to install a few libraries later on.
+
+#### Install OpenCV
+Put the code into conda prompt.
+```bash
+conda install -c conda-forge opencv
+```
