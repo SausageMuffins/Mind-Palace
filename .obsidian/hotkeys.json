@@ -230,5 +230,15 @@
       ],
       "key": "P"
     }
+  ],
+  "obsidian-git:commit-specified-message": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
   ]
 }

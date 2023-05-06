@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Image Basics with OpenCV.md",
+                "file": "Notes/Interests/Learning How To Learn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 223.5,
+    "collapsed": true
   },
   "right": {
     "id": "35eb7310ba541277",
@@ -107,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Vision MOC.md",
+                "file": "Notes/Interests/Learning How To Learn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Vision MOC.md"
+                "file": "Notes/Interests/Learning How To Learn.md"
               }
             }
           },
@@ -152,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230
+    "width": 230,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,12 +168,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "19cfd8d5d8e2d599",
+  "active": "3c67d28b2c0055c9",
   "lastOpenFiles": [
-    "Notes/Image Basics with OpenCV.md",
+    "Notes/Programming/Image Basics with OpenCV.md",
     "Computer Vision MOC.md",
+    "Notes/Programming",
     "Programming MOC.md",
-    "Notes/Numpy.md",
+    "Notes/Programming/Numpy.md",
     "Attachments/Pasted image 20230505185105.png",
     "Attachments/Pasted image 20230505185012.png",
     "Attachments/Pasted image 20230505184957.png",
@@ -200,7 +204,6 @@
     "Notes/Obsidian/Mastering Obsidian MOC.md",
     "Notes/Interests",
     "Notes/Obsidian/MarkDown Cheat Sheet For Obsidian.md",
-    "Notes/Obsidian/YAML Cheat Sheet.md",
     "Templates/DataView",
     "Notes/Obsidian",
     "Meetings",
