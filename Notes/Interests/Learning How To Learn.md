@@ -2,8 +2,8 @@
 tags: Interest, Blog
 date: 03-05-2023
 type: 
- -Note
- -BlogPost
+ Note
+ BlogPost
 summary: I wrote down my thoughts on how to learn more efficiently.
 ---
 ## Proposed Work Flow

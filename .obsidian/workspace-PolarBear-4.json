@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision MOC.md",
+                "file": "_000 Work Bench.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "7cb0a66096615661",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Image Processing OpenCV.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Image Processing OpenCV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notes/Image Processing OpenCV.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,21 +149,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7cb0a66096615661",
+  "active": "9adcf7cfdfcdb111",
   "lastOpenFiles": [
-    "Computer Vision MOC.md",
-    "Notes/Image Processing OpenCV.md",
-    "_030 Software Engineering MOC.md",
     "_000 Work Bench.md",
-    "Notes/Programming/Image Basics with OpenCV.md",
-    "Notes/cv2.md",
-    "Attachments/Pasted image 20230505185012.png",
-    "Attachments/Pasted image 20230505184957.png",
-    "Notes/Reading Research Papers.md",
-    "Attachments/Pasted image 20230505185105.png",
-    "Attachments/Pasted image 20230505185105.png~RF14c98f36.TMP",
-    "Attachments/Pasted image 20230506183348.png",
     "Notes/Programming/Numpy.md",
+    "Notes/Programming/Image Basics with OpenCV.md",
     "Notes/Programming",
     "Attachments/Pasted image 20230501140634.png",
     "Attachments/Pasted image 20230501131731.png",
@@ -205,14 +178,23 @@
     "Notes/Obsidian/Mastering Obsidian MOC.md",
     "Notes/Interests",
     "Notes/Obsidian/MarkDown Cheat Sheet For Obsidian.md",
+    "Notes/Obsidian/YAML Cheat Sheet.md",
+    "Templates/DataView/CheatSheet YAML.md",
     "Templates/DataView",
+    "Notes/Obsidian/DataView Cheat Sheet.md",
     "Notes/Obsidian",
+    "Notes/[MarkDown CheatSheet For Obsidian.md",
     "Meetings",
     "Calendar",
     "_030 Machine Learning MOC.md~RF330de6b6.TMP",
     "Attachments",
     "Notes",
+    "Cheat Sheets/Java Design Notes.md",
     "inbox/Attachments/Pasted image 20230420221954.png",
-    "inbox/Attachments/Pasted image 20230419140954.png"
+    "inbox/Attachments/Pasted image 20230419140954.png",
+    "inbox/Attachments/Pasted image 20230419120254.png",
+    "inbox/Attachments/Pasted image 20230419105451.png",
+    "inbox/Attachments/Pasted image 20230406113808.png",
+    "inbox/Attachments/Pasted image 20230406113805.png"
   ]
 }
