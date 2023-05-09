@@ -29,7 +29,7 @@
                 "file": "Notes/Image Processing OpenCV.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           }
@@ -168,8 +168,14 @@
   },
   "active": "7cb0a66096615661",
   "lastOpenFiles": [
-    "Computer Vision MOC.md",
+    "Attachments/Pasted image 20230509225515.png",
+    "Attachments/Pasted image 20230509225505.png",
+    "Attachments/Pasted image 20230509225449.png",
+    "Attachments/Pasted image 20230509225354.png",
+    "Notes/Programming/Numpy.md",
     "Notes/Image Processing OpenCV.md",
+    "Attachments/Hsl-hsv_models.svg.png",
+    "Computer Vision MOC.md",
     "_030 Software Engineering MOC.md",
     "_000 Work Bench.md",
     "Notes/Programming/Image Basics with OpenCV.md",
@@ -180,12 +186,9 @@
     "Attachments/Pasted image 20230505185105.png",
     "Attachments/Pasted image 20230505185105.png~RF14c98f36.TMP",
     "Attachments/Pasted image 20230506183348.png",
-    "Notes/Programming/Numpy.md",
     "Notes/Programming",
     "Attachments/Pasted image 20230501140634.png",
     "Attachments/Pasted image 20230501131731.png",
-    "Attachments/Pasted image 20230501131707.png",
-    "Attachments/Pasted image 20230501130710.png",
     "Notes/Interests/Creating a Portfolio Website.md",
     "Notes/Numpy.md",
     "Notes/Programming MOC.md",
@@ -204,15 +207,12 @@
     "Notes/Interests/Teachings Page.md",
     "Notes/Obsidian/Mastering Obsidian MOC.md",
     "Notes/Interests",
-    "Notes/Obsidian/MarkDown Cheat Sheet For Obsidian.md",
     "Templates/DataView",
     "Notes/Obsidian",
     "Meetings",
     "Calendar",
     "_030 Machine Learning MOC.md~RF330de6b6.TMP",
     "Attachments",
-    "Notes",
-    "inbox/Attachments/Pasted image 20230420221954.png",
-    "inbox/Attachments/Pasted image 20230419140954.png"
+    "Notes"
   ]
 }

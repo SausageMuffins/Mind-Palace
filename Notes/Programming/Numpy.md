@@ -63,6 +63,8 @@ mynewmat = mat.copy() # np copy method is a deep copy.
 mynewmat[0:6,:] = 999 # convert row 0 to 6 exclusive and all the columns in these rows to 999
 ```
 
+^8b3760
+
 ---
 
 ## Images and Numpy
@@ -72,6 +74,8 @@ In general, images are just matrices, each pixel as an element in a matrix.
 # example of a 720x1280 pixel colored image.
 array = np.zeros(shape=(720,1280, 3)) # 3 color channel
 ```
+
+^2f9695
 
 **Import the following libraries to see the images!**
 ```py
