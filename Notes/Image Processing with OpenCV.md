@@ -178,6 +178,8 @@ Original Image:
 Final Output:
 ![[Pasted image 20230510122150.png]]
 
+---
+
 ## Blurring and Smoothing
 This technique works in conjunction with edge detection algorithm to reduce noise in an image for easier processing.
 
@@ -213,7 +215,7 @@ def placingText():
     cv2.putText(img, text="bricks", org=(10,600), fontFace=font, fontScale=10, color=(255,0,0), thickness=6) # put text on the image
 ```
 
-#### Techniques
+#### Techniques for Blurring
 ##### Averaging
 ```python
 kernel = np.ones(shape=(5,5), dtype=np.float32)/25 # create a matrix (kernel) to blue image.
@@ -240,3 +242,81 @@ result = cv2.medianBlur(img, 5) # (image, kernel size)
 ```python
 blur = cv2.bilateralFilter(img, 9, 75, 75) # default values
 ```
+
+---
+
+## Morphing Images
+We can use cv2 Morphological Operators to help us further process images.
+
+For comparison, the original image can be found just below this line.
+![[Pasted image 20230510153809.png]]
+
+
+#### Erosion and Dilation
+We can add (dilation) or remove (erosion) some of the foreground). This technique is useful for [[Image Processing with OpenCV#Morphological Gradient|Morphological Gradient]] which can then be used for edge detections.
+
+```python
+## Erosion and Dilation ## - removing/adding some foreground.
+kernel = np.ones(shape=(5,5), dtype=np.uint8) # create a 5x5 matrix of ones
+img = load_img() # loading the image.
+result = cv2.erode(img, kernel, iterations=3) # erode away the foreground text
+result2 = cv2.dilate(img, kernel, iterations=3) # dilate the foreground text
+```
+
+**Erosion Result**
+
+![[Pasted image 20230510153642.png]]
+
+**Dilation Result**
+
+![[Pasted image 20230510153708.png]]
+
+
+#### Opening and Closing
+We can also remove noise from the background (opening) and the foreground (closing).
+
+```python
+## Opening ## 
+# removing background noise.
+img = load_img()
+white_noise = np.random.randint(low=0, high=2, size=(600,600)) # create a random array of 0s and 1s
+
+# Adding noise to the image.
+white_noise = white_noise * 255 # make the array of 0s and 1s into an array of 0s and 255s
+noise_img = white_noise + img # add the noise to the image
+
+result1 = cv2.morphologyEx(noise_img, cv2.MORPH_OPEN, kernel) # remove the noise from the background of the image
+
+## Closing ##
+# removing foreground noise.
+img = load_img()
+black_noise = np.random.randint(low=0, high=2, size=(600,600)) # create a random array of 0s and 1s
+black_noise *= -255 # make the array of 0s and 1s into an array of 0s and -255s 
+
+# Adding Noise to the image.
+black_noise_img = img + black_noise # add the noise to the image - when we add -255 to 255, it becomes 0.
+black_noise_img[black_noise_img == -255] = 0 # make all -255 values become 0 because 0 should be the lowest value in the image. 
+
+result2 = cv2.morphologyEx(black_noise_img, cv2.MORPH_CLOSE, kernel) # remove the noise from the foreground of the image
+```
+
+**Before and After for Opening**
+
+![[Pasted image 20230510153523.png]]
+![[Pasted image 20230510153529.png]]
+
+**Before and After for Closing**
+
+![[Pasted image 20230510153438.png]]
+![[Pasted image 20230510153444.png]]
+
+#### Morphological Gradient
+The main idea of this technique is to obtain the difference between erosion and dilation of the foreground. In doing so, we can obtain the edge of the foreground.
+
+```python
+img = load_img()
+
+gradient = cv2.morphologyEx(img, cv2.MORPH_GRADIENT, kernel) # shows the difference between the erosion and dilation of the image.
+```
+
+![[Pasted image 20230510153319.png]]
