@@ -320,3 +320,48 @@ gradient = cv2.morphologyEx(img, cv2.MORPH_GRADIENT, kernel) # shows the differe
 ```
 
 ![[Pasted image 20230510153319.png]]
+
+
+---
+
+## Image Gradients
+Gradients in images are the varying intensities of colours (eg: black and white). This technique is another important method for edge detections.
+
+#### Sobel-Feldman Operators
+The operators utilizes the previously learnt concept of [[Image Processing with OpenCV#Kernel Filters|Kernels]] to calculate/approximate change (or in other words, derivatives). We can calculate the derivatives for both the horizontal and vertical components of an image. [Math Details](https://en.wikipedia.org/wiki/Image_gradient#Mathematics)
+
+```python
+x = cv2.Sobel(img, cv2.CV_64F, 1, 0, ksize=5) # (image, desired depth, dx, dy, kernelsize) - desired depth is how precise the image is (64 bit float).
+
+y = cv2.Sobel(img, cv2.CV_64F, 0, 1, ksize=5) # (image, desired depth, dx, dy, kernelsize) - desired depth is how precise the image is (64 bit float).
+```
+
+**Result for x:**
+![[Pasted image 20230510155912.png]]
+
+**Result for y:**
+![[Pasted image 20230510155923.png]]
+
+#### Seeing Clearer Gradients
+
+##### [[Image Processing with OpenCV#Blending Images of Same Size|Blending]] Images
+
+```python
+blended = cv2.addWeighted(src1=x, alpha=0.5, src2=y, beta=0.5, gamma=0)
+```
+
+![[Pasted image 20230510160028.png]]
+
+
+##### Laplace Operators instead of Sobel Operators
+However, these operators make it harder to see the image in general.
+
+```python
+result = cv2.Laplacian(img, cv2.CV_64F) # (image, desired depth)
+```
+
+![[Pasted image 20230510160143.png]]
+
+##### Previously Learnt Methods
+1. [[Image Processing with OpenCV#Image Thresholding|Thresholding]]
+2. [[Image Processing with OpenCV#Morphing Images|Morphing]]
