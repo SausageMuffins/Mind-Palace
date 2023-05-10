@@ -27,7 +27,7 @@ img = cv2.cvtColor(img, cv2.COLOR_BGR2HLS)
 ## Manipulating Multiple Images
 
 #### Overlaying
-This technique combined with [[Image Processing OpenCV#Blending|Blending]] will help use to "combine" images. We simply change the elements in the array of image 1 to reflect the elements of image 2. Here, we use a similar (previously learnt) concept of [[Numpy#Matrices|Slicing Matrices]]
+This technique combined with [[Image Processing with OpenCV#Blending|Blending]] will help use to "combine" images. We simply change the elements in the array of image 1 to reflect the elements of image 2. Here, we use a similar (previously learnt) concept of [[Numpy#Matrices|Slicing Matrices]]
 
 ```python
 largeImage = img
@@ -93,9 +93,9 @@ Hence, we have to utilize both the concepts of Overlaying and Masking to blend b
 
 General Algorithm:
 1. Establish the Region of Interest
-2. Obtain the [[Image Processing OpenCV#Masking|Mask]]
+2. Obtain the [[Image Processing with OpenCV#Masking|Mask]]
 3. Merge the Mask and the ROI using a **bitwise_or operator** to obtain the final ROI
-5. [[Image Processing OpenCV#Overlaying|Overlay]] the final ROI onto the original Image.
+5. [[Image Processing with OpenCV#Overlaying|Overlay]] the final ROI onto the original Image.
 
 ```python
 # Region of Interest (ROI) (Bottom right corner)
@@ -129,10 +129,11 @@ img1[y_offset:y_offset+roi.shape[0], x_offset:x_offset+roi.shape[1]] = final_roi
 plt.imshow(img1)
 ```
 
-## Final Results.
+#### Final Results.
 
 **Original:**
 ![[Pasted image 20230509225449.png]]
+
 ![[Pasted image 20230509225505.png]]
 
 **Final Result:**
@@ -140,3 +141,40 @@ plt.imshow(img1)
 Notes: the second image "DO NOT COPY" was resized to be 600 by 600 pixels.
 
 ![[Pasted image 20230509225354.png]]
+
+## Image Thresholding
+An important technique for image segmentation: to make an image/object easier to analyse and process by the machine.
+
+The most straightforward way is to use the threshold method of cv2.
+```python
+ret, thresh1 = cv2.threshold(img, 160, 255, cv2.THRESH_BINARY)
+
+# cv2.threshold(img, threshold value, max value, method to threshold)
+```
+
+However, this is often not sufficient since the quality of the processed image decreases.
+
+Instead we can use the **adaptive threshold** method.
+```python
+# average values out then make it black and white using THRESH_BINARY.
+th2 = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 13, 10) 
+
+# using another method to average out values.
+th2 = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 13, 10)
+```
+
+We can further improve the quality using the [[Image Processing with OpenCV#Blending Images of Same Size|blending]] technique we learnt. 
+
+Blending the first method of thresholding together with the adaptive thresholding.
+
+```python
+blended = cv2.addWeighted(src1=thresh1, src2=th2, beta=0.4, alpha=0.6, gamma=0) # use the technique of blending to get higher quality.
+```
+
+#### Final Results
+Original Image:
+![[Pasted image 20230510122133.png]]
+
+Final Output:
+![[Pasted image 20230510122150.png]]
+

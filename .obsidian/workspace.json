@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision MOC.md",
+                "file": "Notes/Image Processing with OpenCV.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Image Processing OpenCV.md",
+                "file": "Notes/Image Processing with OpenCV.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Image Processing OpenCV.md",
+                "file": "Notes/Image Processing with OpenCV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Image Processing OpenCV.md"
+                "file": "Notes/Image Processing with OpenCV.md"
               }
             }
           },
@@ -166,19 +165,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7cb0a66096615661",
+  "active": "3f8b058b28813f8b",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20230510122150.png",
+    "Attachments/Pasted image 20230510122133.png",
+    "Notes/Programming/Image Basics with OpenCV.md",
+    "Notes/Image Processing with OpenCV.md",
+    "Computer Vision MOC.md",
     "Attachments/Pasted image 20230509225515.png",
     "Attachments/Pasted image 20230509225505.png",
     "Attachments/Pasted image 20230509225449.png",
     "Attachments/Pasted image 20230509225354.png",
     "Notes/Programming/Numpy.md",
-    "Notes/Image Processing OpenCV.md",
     "Attachments/Hsl-hsv_models.svg.png",
-    "Computer Vision MOC.md",
     "_030 Software Engineering MOC.md",
     "_000 Work Bench.md",
-    "Notes/Programming/Image Basics with OpenCV.md",
     "Notes/cv2.md",
     "Attachments/Pasted image 20230505185012.png",
     "Attachments/Pasted image 20230505184957.png",
@@ -187,8 +188,6 @@
     "Attachments/Pasted image 20230505185105.png~RF14c98f36.TMP",
     "Attachments/Pasted image 20230506183348.png",
     "Notes/Programming",
-    "Attachments/Pasted image 20230501140634.png",
-    "Attachments/Pasted image 20230501131731.png",
     "Notes/Interests/Creating a Portfolio Website.md",
     "Notes/Numpy.md",
     "Notes/Programming MOC.md",
