@@ -3,7 +3,7 @@ tags: CV
 date: 09-05-2023
 type: 
  Note
- Incomplete
+ Complete
 summary: Introduction to the image processing using OpenCV
 ---
 

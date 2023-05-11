@@ -4,11 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9d6ae92047afd2b4",
+        "id": "0d4d170307252de7",
         "type": "tabs",
         "children": [
           {
-            "id": "3f8b058b28813f8b",
+            "id": "3c70c236f80d5d82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Vision MOC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02dd5ceaba44d79c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,11 +29,25 @@
                 "file": "Notes/Image Processing with OpenCV.md",
                 "mode": "source",
                 "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "dcdcc80bb9d0e672",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Video Processing with OpenCV.md",
+                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Image Processing with OpenCV.md",
+                "file": "Notes/Video Processing with OpenCV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Image Processing with OpenCV.md"
+                "file": "Notes/Video Processing with OpenCV.md"
               }
             }
           },
@@ -152,8 +179,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3f8b058b28813f8b",
+  "active": "dcdcc80bb9d0e672",
   "lastOpenFiles": [
+    "Notes/Image Processing with OpenCV.md",
+    "Notes/Video Processing with OpenCV.md",
+    "Computer Vision MOC.md",
+    "Notes/Untitled.md",
     "Attachments/Pasted image 20230511171652.png",
     "Attachments/Pasted image 20230511171349.png",
     "Attachments/Pasted image 20230511171343.png",
@@ -164,10 +195,7 @@
     "Attachments/Pasted image 20230511170120.png",
     "Attachments/Pasted image 20230511170040.png",
     "Attachments/Pasted image 20230510160143.png",
-    "Attachments/Pasted image 20230510160138.png",
     "Notes/Programming/Image Basics with OpenCV.md",
-    "Notes/Image Processing with OpenCV.md",
-    "Computer Vision MOC.md",
     "Notes/Programming/Numpy.md",
     "_030 Software Engineering MOC.md",
     "_000 Work Bench.md",
@@ -191,7 +219,6 @@
     "Templates/DataView/DV_LIST.md",
     "Templates/DataView/MOC YAML.md",
     "Notes/Interests/Teachings Page.md",
-    "Notes/Obsidian/Mastering Obsidian MOC.md",
     "Notes/Interests",
     "Templates/DataView",
     "Notes/Obsidian",
