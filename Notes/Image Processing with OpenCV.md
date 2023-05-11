@@ -365,3 +365,103 @@ result = cv2.Laplacian(img, cv2.CV_64F) # (image, desired depth)
 ##### Previously Learnt Methods
 1. [[Image Processing with OpenCV#Image Thresholding|Thresholding]]
 2. [[Image Processing with OpenCV#Morphing Images|Morphing]]
+
+## Colour Histograms
+
+We can obtain the histogram for each colour channel of an image. For reference, the original image is this:
+
+**x-axis: colour values 0-255**
+**y-axis: frequency (depends on resolution of image)*
+
+![[Pasted image 20230511170211.png]]
+
+**We use cv2.calcHist method to calculate the histograms.**
+
+```python
+# 0 is blue channel - opencv is in bgr format
+hist_bricks = cv2.calcHist([blue_bricks], channels=[0], mask=None, histSize=[256], ranges=[0,256]) 
+
+# Displaying all channels
+
+color = ('b', 'g', 'r') # tuple of colors
+
+for i,col in enumerate(color): # ploting all the colors for blue bricks
+    hist_bricks_all_colors = cv2.calcHist([blue_bricks], channels=[i], mask=None, histSize=[256], ranges=[0,256]) # emumerate gives us the index of the color.
+    plt.plot(hist_bricks_all_colors, color=col)
+    plt.xlim([0,256]) # set the x axis limit to 0 to 255
+    
+plt.title("Blue Bricks")
+```
+
+**Result:**
+
+Blue Channel
+
+![[Pasted image 20230511170040.png]]
+
+All Colour Channels
+
+![[Pasted image 20230511170120.png]]
+
+
+We can also apply the same concept to masks:
+
+```python
+img = rainbow 
+
+# Creating a Mask
+mask = np.zeros(img.shape[:2], dtype=np.uint8)
+mask[200:300, 200:300] = 255 # white rectangle
+
+# Masking the rainbow
+masked_img = cv2.bitwise_and(img, img, mask=mask)
+
+# for visualization only
+show_masked_img = cv2.bitwise_and(show_rainbow, show_rainbow, mask=mask) 
+
+
+hist_mask_values_red = cv2.calcHist([masked_img], channels=[1], mask=mask, histSize=[256], ranges=[0,256]) # histogram for the green channel of the mask.
+
+plt.plot(hist_mask_values_red)
+plt.title("Histogram for Masked Rainbow Image")
+```
+
+![[Pasted image 20230511170808.png]]
+
+![[Pasted image 20230511170732.png]]
+
+#### Histogram Equalization
+
+This part is very important for increasing the contrast of an image.
+
+Original Image:
+
+![[Pasted image 20230511171030.png]]
+
+Equalizing Grayscale Images:
+
+```python
+equalized = cv2.equalizeHist(gorilla)
+
+hist_gorilla_equalized = cv2.calcHist([equalized], channels=[0], mask=None, histSize=[256], ranges=[0,256])
+```
+
+Result:
+![[Pasted image 20230511171343.png]]
+![[Pasted image 20230511171349.png]]
+
+Equalizing Coloured Images:
+
+We have to apply the concept of [[Image Processing with OpenCV#Colour Mapping|Color Mapping]] to HSV channel here to increase the contrast.
+
+```python
+# convert BGR to HSV
+hsv = cv2.cvtColor(color_gorilla, cv2.COLOR_BGR2HSV)
+# equalize the histogram of the value channel
+hsv[:,:,2] = cv2.equalizeHist(hsv[:,:,2])
+# convert back to RGB
+equalized_color_gorilla = cv2.cvtColor(hsv, cv2.COLOR_HSV2RGB)
+```
+
+**Result:**
+![[Pasted image 20230511171652.png]]
