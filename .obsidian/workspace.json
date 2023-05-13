@@ -8,20 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "131c991a1f519d17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOCs/_000 Work Bench.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9974b6af8461ce8b",
+            "id": "83c992737959a791",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,12 +21,12 @@
             }
           },
           {
-            "id": "cd8c9521a7bb7154",
+            "id": "8180b6e4449b1e88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Video Processing with OpenCV.md",
+                "file": "Notes/Object Detection.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Video Processing with OpenCV.md",
+                "file": "Notes/Object Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Video Processing with OpenCV.md"
+                "file": "Notes/Object Detection.md"
               }
             }
           },
@@ -167,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230
+    "width": 230,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,11 +168,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cd8c9521a7bb7154",
+  "active": "8180b6e4449b1e88",
   "lastOpenFiles": [
     "MOCs/Computer Vision MOC.md",
-    "Notes/Video Processing with OpenCV.md",
+    "Notes/Template Matching.md",
+    "Attachments/Pasted image 20230513152115.png",
+    "Attachments/Pasted image 20230513152111.png",
+    "Attachments/Pasted image 20230513152107.png",
+    "Attachments/Pasted image 20230513152059.png",
+    "Attachments/Pasted image 20230513152050.png",
+    "Attachments/Pasted image 20230513152046.png",
+    "Notes/Object Detection.md",
     "MOCs/_000 Work Bench.md",
+    "Meetings/Kick-Off Meeting with Prof Kenny.md",
+    "Notes/Programming/Image Basics with OpenCV.md",
+    "Notes/Programming/Numpy.md",
+    "Notes/Video Processing with OpenCV.md",
     "MOCs/_020 Computer Engineering MOC.md",
     "MOCs",
     "Notes/Untitled",
@@ -196,14 +195,6 @@
     "Attachments/Pasted image 20230511171349.png",
     "Attachments/Pasted image 20230511171343.png",
     "Attachments/Pasted image 20230511171030.png",
-    "Attachments/Pasted image 20230511170808.png",
-    "Attachments/Pasted image 20230511170732.png",
-    "Attachments/Pasted image 20230511170211.png",
-    "Attachments/Pasted image 20230511170120.png",
-    "Attachments/Pasted image 20230511170040.png",
-    "Attachments/Pasted image 20230510160143.png",
-    "Notes/Programming/Image Basics with OpenCV.md",
-    "Notes/Programming/Numpy.md",
     "Notes/cv2.md",
     "Notes/Reading Research Papers.md",
     "Attachments/Pasted image 20230505185105.png~RF14c98f36.TMP",
@@ -216,11 +207,8 @@
     "Notes/_020 Computer Engineering MOC.md",
     "Notes/_010 Machine Learning MOC.md",
     "Templates/DataView/Notes YAML.md",
-    "Meetings/Kick-Off Meeting with Prof Kenny.md",
     "Templates/DataView/Meeting YAML.md",
     "Notes/Interests/Learning How To Learn.md",
-    "Templates/DataView/DV_TASK.md",
-    "Templates/DataView/DV_TABLE.md",
     "Notes/Interests",
     "Templates/DataView",
     "Notes/Obsidian",

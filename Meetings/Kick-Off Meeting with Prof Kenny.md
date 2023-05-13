@@ -1,5 +1,5 @@
 ---
-tags: #Project, #SmartDrive
+tags: Project, SmartDrive
 date: 02-05-2023
 type: Meeting
 summary: Official start to the UROP SmartDrive + Things to do.
@@ -7,7 +7,7 @@ summary: Official start to the UROP SmartDrive + Things to do.
 #### Tasks
 - [ ] Learn about CV
 - [ ] Free access to Udemy NLB 
--  [ ] Reading [How to read a paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf) 
+- [ ] Reading [How to read a paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf) 
 - [ ] Find related data sets. 
 - [ ] Fourier Transform
 
