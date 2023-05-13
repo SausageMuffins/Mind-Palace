@@ -58,3 +58,51 @@ The corners by the edge of the image for the real chess are also not detected - 
 #### Shi-Tomasi Corner Detection
 Based on Harris Corner Detection with a slight alteration. The main difference is the selection criteria. This algorithm usually performs better than Harris Corner Detection
 
+**openCV method for Shi-Tomasi Corner Detection:**
+```python
+# goodFeaturesToTrack(image, maxCorners, qualityLevel, minDistance)
+corner = cv2.goodFeaturesToTrack(gray_flat_chess, 40, 0.01, 10)
+corner2 = cv2.goodFeaturesToTrack(gray_real_chess, 90, 0.01, 10)
+# maxCorners: maximum (best) number of corners to return
+# qualityLevel: minimum accepted quality of image corners
+# minDistance: minimum possible Euclidean distance between the returned corners
+```
+
+| Arguments    | Description                                |
+| ------------ | ------------------------------------------ |
+| maxCorners   | maximum (best) number of corners to return |
+| qualityLevel | minimum accepted quality of image corners  |
+|      minDistance        |   minimum possible Euclidean distance between the returned corners|
+
+**Need to Convert to Integers**
+```python
+corners = np.int0(corner)
+corner2 = np.int0(corner2)
+```
+
+**Marking corners on actual image**
+```python
+for i in corners:
+    x,y = i.ravel() # ravel() flattens the array
+    cv2.circle(flat_chess, (x,y), 3, (255,0,0), -1) # draw a circle on the corner points
+
+for j in corner2:
+    x,y = j.ravel()
+    cv2.circle(real_chess, (x,y), 3, (255,0,0), -1) # draw a circle on the corner points
+```
+
+**Upside:**
+- We can choose how many corners (and the best ones) to detect.
+
+**Downside:**
+- Does not automatically mark the corners for you.
+
+
+**Results:**
+Flat Chess - Performed well as expected
+
+![[Pasted image 20230513173255.png]]
+
+Real Chess - Performed slightly better than Harris Corner Detection
+
+![[Pasted image 20230513173415.png]]
