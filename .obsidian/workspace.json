@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ff7270897f3f3102",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Corner Detection.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 223.5,
+    "collapsed": true
   },
   "right": {
     "id": "35eb7310ba541277",
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Object Detection.md",
+                "file": "Notes/Corner Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Object Detection.md"
+                "file": "Notes/Corner Detection.md"
               }
             }
           },
@@ -168,8 +182,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8180b6e4449b1e88",
+  "active": "ff7270897f3f3102",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20230513171613.png",
+    "Attachments/Pasted image 20230513171544.png",
+    "Attachments/Pasted image 20230513171541.png",
+    "Notes/Object Detection.md",
+    "Notes/Corner Detection.md",
     "MOCs/Computer Vision MOC.md",
     "Notes/Template Matching.md",
     "Attachments/Pasted image 20230513152115.png",
@@ -178,7 +197,6 @@
     "Attachments/Pasted image 20230513152059.png",
     "Attachments/Pasted image 20230513152050.png",
     "Attachments/Pasted image 20230513152046.png",
-    "Notes/Object Detection.md",
     "MOCs/_000 Work Bench.md",
     "Meetings/Kick-Off Meeting with Prof Kenny.md",
     "Notes/Programming/Image Basics with OpenCV.md",
@@ -193,8 +211,6 @@
     "Notes/Untitled.md",
     "Attachments/Pasted image 20230511171652.png",
     "Attachments/Pasted image 20230511171349.png",
-    "Attachments/Pasted image 20230511171343.png",
-    "Attachments/Pasted image 20230511171030.png",
     "Notes/cv2.md",
     "Notes/Reading Research Papers.md",
     "Attachments/Pasted image 20230505185105.png~RF14c98f36.TMP",
@@ -208,7 +224,6 @@
     "Notes/_010 Machine Learning MOC.md",
     "Templates/DataView/Notes YAML.md",
     "Templates/DataView/Meeting YAML.md",
-    "Notes/Interests/Learning How To Learn.md",
     "Notes/Interests",
     "Templates/DataView",
     "Notes/Obsidian",
