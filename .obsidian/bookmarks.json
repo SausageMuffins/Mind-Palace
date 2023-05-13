@@ -3,8 +3,42 @@
     {
       "type": "file",
       "ctime": 1683122016595,
-      "path": "_000 Work Bench.md",
+      "path": "MOCs/_000 Work Bench.md",
       "title": "Starting Point"
+    },
+    {
+      "type": "group",
+      "ctime": 1683958788389,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1683958771118,
+          "path": "MOCs/_010 Machine Learning MOC.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1683958823449,
+          "path": "MOCs/_020 Computer Engineering MOC.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1683958823449,
+          "path": "MOCs/_030 Software Engineering MOC.md"
+        }
+      ],
+      "title": "SUTD TERM 5"
+    },
+    {
+      "type": "group",
+      "ctime": 1683958795841,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1683958736326,
+          "path": "MOCs/Computer Vision MOC.md"
+        }
+      ],
+      "title": "RESEARCH"
     }
   ]
 }
