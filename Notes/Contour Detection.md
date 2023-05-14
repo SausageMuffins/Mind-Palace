@@ -1,10 +1,10 @@
 ---
-tags: 
-date:
+tags: CV
+date: 14-05-2023
 type: 
  Note
- Incomplete
-summary: 
+ Complete
+summary: Detecting Contours using OpenCV
 ---
 
 #### Main Methods Used

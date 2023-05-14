@@ -21,15 +21,15 @@
             }
           },
           {
-            "id": "70d5122398f18a78",
+            "id": "bf3ceae23cccd344",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Contour Detection.md",
+                "file": "Notes/Feature Matching.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Contour Detection.md",
+                "file": "Notes/Feature Matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Contour Detection.md"
+                "file": "Notes/Feature Matching.md"
               }
             }
           },
@@ -167,14 +167,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "70d5122398f18a78",
+  "active": "bf3ceae23cccd344",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20230514152540.png",
+    "Attachments/Pasted image 20230514151911.png",
+    "Attachments/Pasted image 20230514151715.png",
+    "Notes/Computer Vision/Object Detection.md",
+    "Notes/Feature Matching.md",
+    "MOCs/Computer Vision MOC.md",
+    "Notes/Contour Detection.md",
     "Attachments/Pasted image 20230514134306.png",
     "Attachments/Pasted image 20230514134227.png",
     "Attachments/Pasted image 20230514134210.png",
-    "Notes/Computer Vision/Object Detection.md",
-    "Notes/Contour Detection.md",
-    "MOCs/Computer Vision MOC.md",
     "Notes/Grid Detection.md",
     "Notes/Interests/Learning How To Learn.md",
     "Templates/DataView/Notes YAML.md",
@@ -190,10 +194,7 @@
     "Attachments/Pasted image 20230513173415.png",
     "Attachments/Pasted image 20230513173255.png",
     "Attachments/Pasted image 20230513171613.png",
-    "Attachments/Pasted image 20230513171544.png",
-    "Attachments/Pasted image 20230513171541.png",
     "Notes/Computer Vision/Template Matching.md",
-    "Attachments/Pasted image 20230513152115.png",
     "Meetings/Kick-Off Meeting with Prof Kenny.md",
     "Notes/Programming/Image Basics with OpenCV.md",
     "Notes/Programming/Numpy.md",
@@ -209,7 +210,6 @@
     "Notes/Programming",
     "Notes/Numpy.md",
     "Notes/Programming MOC.md",
-    "Notes/Computer Vision MOC.md",
     "Notes/Interests",
     "Templates/DataView",
     "Notes/Obsidian",
