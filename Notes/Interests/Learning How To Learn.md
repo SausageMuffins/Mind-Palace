@@ -24,7 +24,7 @@ summary: I wrote down my thoughts on how to learn more efficiently.
 
 ### GRINDE Map 
 
-This is a specific type of mind map that I will be using to do **priming** and taking notes in lecture.
+This is a specific type of mind map that I will be using to do **priming** and taking notes in lecture. This [video](https://www.youtube.com/watch?v=5zT_2aBP6vM) here explains what is in the table below!
 
 | **Symbol**          | **Description**                                                                                                      |
 | --------------- | ---------------------------------------------------------------------------------------------------------------- |

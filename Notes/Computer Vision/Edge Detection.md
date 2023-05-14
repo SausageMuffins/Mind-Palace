@@ -3,7 +3,7 @@ tags: CV
 date: 13-05-2023
 type: 
  Note
- Incomplete
+ Complete
 summary: Detect Edges using Canny Edge Algorithm with OpenCV
 ---
 

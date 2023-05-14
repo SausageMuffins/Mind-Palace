@@ -1,7 +1,7 @@
 ---
-tags: Interest
+tags: Interest Blog
 date: 03-05-2023
-type: Blog
+type: BlogPost
 summary: I wrote about how I created my first GitHub Page website.
 ---
 ## "Your Subscription is due in 3 months time."
