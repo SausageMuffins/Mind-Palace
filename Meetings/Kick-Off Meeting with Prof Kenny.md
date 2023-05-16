@@ -5,11 +5,10 @@ type: Meeting
 summary: Official start to the UROP SmartDrive + Things to do.
 ---
 #### Tasks
-- [ ] Learn about CV
-- [ ] Free access to Udemy NLB 
-- [ ] Reading [How to read a paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf) 
+- [x] Learn about CV
+- [x] Free access to Udemy NLB 
+- [x] Reading [How to read a paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf) 
 - [ ] Find related data sets. 
-- [ ] Fourier Transform
 
 #### Find Papers
 1. Google Scholar

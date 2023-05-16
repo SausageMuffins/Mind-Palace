@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7dd3fc3b2c4bce23",
+        "id": "d0cac715bae96029",
         "type": "tabs",
         "children": [
           {
-            "id": "307ad3fffccd3977",
+            "id": "d56d7f4a0c850eb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOCs/Computer Vision MOC.md",
+                "file": "MOCs/_000 Work Bench.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "bf3ceae23cccd344",
+            "id": "94d088faf203a111",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Feature Matching.md",
+                "file": "MOCs/SmartDrive.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Feature Matching.md",
+                "file": "MOCs/SmartDrive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Feature Matching.md"
+                "file": "MOCs/SmartDrive.md"
               }
             }
           },
@@ -167,25 +167,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bf3ceae23cccd344",
+  "active": "94d088faf203a111",
   "lastOpenFiles": [
+    "Notes/Driver Alertness Monitoring Using Fusion of Facial Features and Bio-Signals.md",
+    "Notes/Real-Time System for Driver Fatigue Detection by RGB-D Camera.md",
+    "MOCs/SmartDrive.md",
+    "Notes/A Smartphone-Based Drowsiness Detection and Warning System for Automotive Drivers.md",
+    "MOCs/_000 Work Bench.md",
+    "Meetings/Kick-Off Meeting with Prof Kenny.md",
+    "Notes/Computer Vision/Feature Matching.md",
+    "Notes/Computer Vision/Object Detection.md",
+    "MOCs/Computer Vision MOC.md",
+    "Notes/Software Engineering",
+    "MOCs/Chinese Short Fictions MOC.md",
+    "MOCs/_030 Software Engineering MOC.md",
+    "Notes/Software Engineering/Software Development Process.md",
+    "MOCs/_020 Computer Engineering MOC.md",
+    "Notes/Computer Vision/Watershed Algorithm.md",
+    "Notes/Computer Vision/Contour Detection.md",
+    "Notes/Computer Vision/Segment Foreground and Background.md",
     "Attachments/Pasted image 20230514152540.png",
     "Attachments/Pasted image 20230514151911.png",
     "Attachments/Pasted image 20230514151715.png",
-    "Notes/Computer Vision/Object Detection.md",
-    "Notes/Feature Matching.md",
-    "MOCs/Computer Vision MOC.md",
-    "Notes/Contour Detection.md",
     "Attachments/Pasted image 20230514134306.png",
     "Attachments/Pasted image 20230514134227.png",
     "Attachments/Pasted image 20230514134210.png",
-    "Notes/Grid Detection.md",
+    "Notes/Computer Vision/Grid Detection.md",
     "Notes/Interests/Learning How To Learn.md",
     "Templates/DataView/Notes YAML.md",
     "Attachments/Pasted image 20230514131805.png",
     "Attachments/Pasted image 20230514131730.png",
     "Notes/Computer Vision/Edge Detection.md",
-    "MOCs/_000 Work Bench.md",
     "Website/Creating a Portfolio Website.md",
     "Notes/Interests/Reading Research Papers.md",
     "Notes/Computer Vision",
@@ -193,27 +205,15 @@
     "Notes/Computer Vision/Corner Detection.md",
     "Attachments/Pasted image 20230513173415.png",
     "Attachments/Pasted image 20230513173255.png",
-    "Attachments/Pasted image 20230513171613.png",
     "Notes/Computer Vision/Template Matching.md",
-    "Meetings/Kick-Off Meeting with Prof Kenny.md",
     "Notes/Programming/Image Basics with OpenCV.md",
     "Notes/Programming/Numpy.md",
-    "Notes/Computer Vision/Video Processing with OpenCV.md",
-    "MOCs/_020 Computer Engineering MOC.md",
     "MOCs",
-    "MOCs/_030 Software Engineering MOC.md",
-    "MOCs/_010 Machine Learning MOC.md",
-    "Notes/Computer Vision/Image Processing with OpenCV.md",
-    "Notes/Untitled.md",
-    "Notes/cv2.md",
     "Attachments/Pasted image 20230505185105.png~RF14c98f36.TMP",
     "Notes/Programming",
-    "Notes/Numpy.md",
-    "Notes/Programming MOC.md",
     "Notes/Interests",
     "Templates/DataView",
     "Notes/Obsidian",
-    "Meetings",
-    "Calendar"
+    "Meetings"
   ]
 }

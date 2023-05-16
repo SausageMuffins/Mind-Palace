@@ -54,3 +54,5 @@ Internal Contours:
 External Contours:
 
 ![[Pasted image 20230514134306.png]]
+
+In a way, this helps us to [[Segment Foreground and Background]].

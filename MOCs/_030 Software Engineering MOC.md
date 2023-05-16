@@ -7,7 +7,7 @@ type:
 summary: 
 ---
 ## Needs Attention
-- [ ] Default Task
+- [ ] [[Software Development Process#Analysis|Analyse]] the requirements and have a set of open questions for the clients.
 
 ## Incomplete Notes
 ```dataview
@@ -20,3 +20,9 @@ SORT date asc
 ---
 
 ## Concepts
+```dataview
+LIST 
+FROM #SE 
+WHERE contains(type, "Complete")
+SORT file.date asc
+```
