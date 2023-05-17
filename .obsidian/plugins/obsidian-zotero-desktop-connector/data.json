@@ -1,0 +1,23 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "Notes/Papers/",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [],
+  "exportFormats": [
+    {
+      "name": "Import Quotes",
+      "outputPathTemplate": "Notes/Papers/{{title}}.md",
+      "imageOutputPathTemplate": "Attachments/Research-Images/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "Templates/Zotero Template.md"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "exeOverridePath": "Notes/Papers/",
+  "shouldShowCiteSuggest": true,
+  "shouldConcat": true
+}
