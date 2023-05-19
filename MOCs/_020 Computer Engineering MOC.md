@@ -20,4 +20,5 @@ SORT date asc
 ---
 
 ## Concepts
+- [[Computer Systems]]
 

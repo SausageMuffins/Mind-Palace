@@ -58,3 +58,5 @@ FROM #SmartDrive
 WHERE contains(type, "Meeting")
 SORT date asc
 ```
+## Important Concepts
+- [[Reading Research Papers]]

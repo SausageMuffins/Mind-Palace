@@ -3,7 +3,7 @@ tags: SE
 date: 15-05-2023
 type: 
  Note
- Incomplete
+ Complete
 summary: Methodologies and SLDC
 ---
 ## Software Development Life Cycle SDLC

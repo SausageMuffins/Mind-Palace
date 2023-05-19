@@ -3,7 +3,7 @@ tags: CV
 date: 14-05-2023
 type: 
  Note
- Incomplete
+ Complete
 summary: Document what the algorithm does and its use cases.
 ---
 
@@ -97,7 +97,9 @@ for i in range(len(contours)):
 
 ![[Pasted image 20230517122247.png]]
 
-#### Watershed Algorithm and drawing the contours
+Watershed Algorithm and drawing the contours
 
 ![[Pasted image 20230517122310.png]]
 
+---
+## Custom Seeding Watershed Algorithm
