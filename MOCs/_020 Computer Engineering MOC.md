@@ -12,7 +12,7 @@ summary:
 ## Incomplete Notes
 ```dataview
 TABLE summary as Summary
-FROM #CE 
+FROM #CSE
 WHERE contains(type, "Incomplete")
 SORT date asc
 ```

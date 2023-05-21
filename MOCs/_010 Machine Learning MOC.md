@@ -19,4 +19,21 @@ SORT date asc
 
 ---
 
+## Complete Notes
+
+```dataview
+TABLE summary as Summary
+FROM #ML
+WHERE contains(type, "Complete")
+SORT date asc
+```
+
+
+---
+
 ## Concepts
+
+#### Supervised Learning
+1. [[Linear Classification]]
+	1. [[Perceptron Algorithm]]
+

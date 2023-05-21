@@ -12,7 +12,7 @@ SORT file.name asc
 ```dataview
 LIST 
 FROM #MOC 
-WHERE !contains(type, "Active") AND file.name != "MOC YAML"
+WHERE !contains(type, "Active") AND file.name != "MOC YAML" AND !contains(type, "SideProject")
 SORT file.name asc
 ```
 
