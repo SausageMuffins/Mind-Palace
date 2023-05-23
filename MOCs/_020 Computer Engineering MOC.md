@@ -12,8 +12,18 @@ summary:
 ## Incomplete Notes
 ```dataview
 TABLE summary as Summary
-FROM #CSE
+FROM #CE
 WHERE contains(type, "Incomplete")
+SORT date asc
+```
+
+---
+
+## Complete Notes
+```dataview
+TABLE summary as Summary
+FROM #CE
+WHERE contains(type, "Complete")
 SORT date asc
 ```
 
@@ -21,4 +31,8 @@ SORT date asc
 
 ## Concepts
 - [[Computer Systems]]
+	- Memory Hierarchy
+	- Kernel
+	- Programs
+	- Interrupts
 

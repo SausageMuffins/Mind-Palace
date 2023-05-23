@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "8e7ce681e677f6a9",
+            "id": "cf758406ac28dbdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "MOCs/_020 Computer Engineering MOC.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28c698897d6f1814",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Computer Engineering/Computer Systems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,38 +47,12 @@
             }
           },
           {
-            "id": "51f0800531af219c",
+            "id": "52489c41f8518622",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOCs/_010 Machine Learning MOC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2cdb2b605c3d2d08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Linear Classification.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c218fe0cdee2b801",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Perceptron Algorithm.md",
+                "file": "Notes/Interrupts.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -131,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 227,
+    "collapsed": true
   },
   "right": {
     "id": "35eb7310ba541277",
@@ -147,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Perceptron Algorithm.md",
+                "file": "Notes/Computer Engineering/Computer Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Perceptron Algorithm.md"
+                "file": "Notes/Computer Engineering/Computer Systems.md"
               }
             }
           },
@@ -192,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230
+    "width": 294
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,16 +193,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c218fe0cdee2b801",
+  "active": "28c698897d6f1814",
   "lastOpenFiles": [
-    "Notes/Linear Classification.md",
-    "Notes/Perceptron Algorithm.md",
+    "Notes/Multiprogramming In Computer Systems.md",
+    "Notes/Computer Engineering/Computer Systems.md",
+    "Notes/Interrupts.md",
+    "Attachments/Pasted image 20230523111849.png",
+    "Attachments/Pasted image 20230523103653.png",
+    "Attachments/12 1.png",
+    "Attachments/12.png",
+    "Attachments/Pasted image 20230523102452.png",
+    "Attachments/9.png",
+    "MOCs/_020 Computer Engineering MOC.md",
+    "MOCs/_030 Software Engineering MOC.md",
+    "Notes/Software Engineering/Software Development Process.md",
+    "Notes/Software Engineering/Software Languages.md",
+    "MOCs/_000 Work Bench.md",
+    "Notes/Computer Engineering",
+    "Notes/Machine Learning",
     "MOCs/_010 Machine Learning MOC.md",
-    "Notes/Computer Systems.md",
+    "Attachments/Pasted image 20230521221615.png",
+    "Notes/Software Engineering/Software Designs.md",
+    "Attachments/Pasted image 20230521214904.png",
+    "Notes/Machine Learning/Linear Classification.md",
+    "Notes/Machine Learning/Perceptron Algorithm.md",
     "Attachments/Pasted image 20230521161907.png",
     "Attachments/Pasted image 20230521160836.png",
-    "MOCs/_020 Computer Engineering MOC.md",
-    "MOCs/_000 Work Bench.md",
     "MOCs/Computer Vision MOC.md",
     "MOCs/Chinese Short Fictions MOC.md",
     "Attachments/Pasted image 20230517122056.png~RF1b524df.TMP",
@@ -223,34 +227,19 @@
     "Notes/Watershed Algorithm.md",
     "Notes/Contour Detection.md",
     "Notes/Segment Foreground and Background.md",
-    "Attachments/Pasted image 20230514152540.png",
-    "Attachments/Pasted image 20230514151911.png",
-    "Attachments/Pasted image 20230514151715.png",
     "Notes/Computer Vision/Object Detection.md",
-    "Attachments/Pasted image 20230514134306.png",
-    "Attachments/Pasted image 20230514134227.png",
-    "Attachments/Pasted image 20230514134210.png",
     "Notes/Grid Detection.md",
     "Notes/Interests/Learning How To Learn.md",
     "Templates/DataView/Notes YAML.md",
-    "Attachments/Pasted image 20230514131805.png",
-    "Attachments/Pasted image 20230514131730.png",
     "Notes/Computer Vision/Edge Detection.md",
     "Website/Creating a Portfolio Website.md",
     "Notes/Interests/Reading Research Papers.md",
     "Notes/Computer Vision",
     "Website",
     "Notes/Computer Vision/Corner Detection.md",
-    "Notes/Computer Vision/Template Matching.md",
-    "Meetings/Kick-Off Meeting with Prof Kenny.md",
-    "Notes/Programming/Image Basics with OpenCV.md",
-    "Notes/Programming/Numpy.md",
-    "Notes/Computer Vision/Video Processing with OpenCV.md",
     "MOCs",
     "Attachments/Pasted image 20230505185105.png~RF14c98f36.TMP",
     "Notes/Programming",
-    "Notes/Interests",
-    "Templates/DataView",
-    "Notes/Obsidian"
+    "Notes/Interests"
   ]
 }

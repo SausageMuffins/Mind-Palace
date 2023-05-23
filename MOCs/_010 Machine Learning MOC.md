@@ -28,7 +28,6 @@ WHERE contains(type, "Complete")
 SORT date asc
 ```
 
-
 ---
 
 ## Concepts

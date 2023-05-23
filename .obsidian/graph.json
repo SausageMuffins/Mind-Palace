@@ -20,9 +20,16 @@
         "a": 1,
         "rgb": 15888647
       }
+    },
+    {
+      "query": "tag:#CE",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -32,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5841675778892008,
+  "scale": 0.7422113208186996,
   "close": true
 }
