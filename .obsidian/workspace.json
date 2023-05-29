@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7dd3fc3b2c4bce23",
+        "id": "0ee7a824dc3de05b",
         "type": "tabs",
         "children": [
           {
-            "id": "0be2037b1a40da42",
+            "id": "b38becab2d08bc75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOCs/_000 Work Bench.md",
+                "file": "MOCs/Computer Vision MOC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,20 @@
             }
           },
           {
-            "id": "cf758406ac28dbdf",
+            "id": "c2e37052bc82b5ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "MOCs/_020 Computer Engineering MOC.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "28c698897d6f1814",
+            "id": "1d1880956ae4521d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,12 +47,38 @@
             }
           },
           {
-            "id": "52489c41f8518622",
+            "id": "32a9709cbdca05bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Interrupts.md",
+                "file": "Notes/Computer Engineering/Interrupts.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b6ae95e52635d76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/System Calls.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4012e4f23a75f91f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/OS Services and UI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,8 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227,
-    "collapsed": true
+    "width": 227
   },
   "right": {
     "id": "35eb7310ba541277",
@@ -135,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Computer Engineering/Computer Systems.md",
+                "file": "Notes/Computer Engineering/Interrupts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Computer Engineering/Computer Systems.md"
+                "file": "Notes/Computer Engineering/Interrupts.md"
               }
             }
           },
@@ -180,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294
+    "width": 294,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,50 +219,50 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "28c698897d6f1814",
+  "active": "32a9709cbdca05bd",
   "lastOpenFiles": [
-    "Notes/Multiprogramming In Computer Systems.md",
+    "Notes/System Calls.md",
+    "Notes/Computer Engineering/Interrupts.md",
     "Notes/Computer Engineering/Computer Systems.md",
-    "Notes/Interrupts.md",
+    "MOCs/_020 Computer Engineering MOC.md",
+    "MOCs/Computer Vision MOC.md",
+    "Notes/OS Services and UI.md",
+    "Notes/Deep Learning with Computer Vision.md",
+    "MOCs/_030 Software Engineering MOC.md",
+    "Notes/Software Engineering/Software Development Process.md",
+    "Notes/Software Engineering/Software Designs.md",
+    "Notes/Software Engineering/Software Languages.md",
+    "MOCs/_000 Work Bench.md",
+    "Notes/Papers/A Smartphone-Based Drowsiness Detection and Warning System for Automotive Drivers.md",
+    "Notes/Papers/Driver Alertness Monitoring Using Fusion of Facial Features and Bio-Signals.md",
+    "Notes/Papers/Real-Time System for Driver Fatigue Detection by RGB-D Camera.md",
+    "MOCs/SmartDrive.md",
+    "Meetings/Kick-Off Meeting with Prof Kenny.md",
+    "Notes/Interests/Reading Research Papers.md",
+    "Attachments/Pasted image 20230523170310.png",
+    "Attachments/Pasted image 20230523170216.png",
+    "Attachments/Pasted image 20230523170215.png",
+    "Attachments/Pasted image 20230523161922.png",
+    "Notes/Computer Engineering/Multiprogramming In Computer Systems.md",
     "Attachments/Pasted image 20230523111849.png",
     "Attachments/Pasted image 20230523103653.png",
     "Attachments/12 1.png",
     "Attachments/12.png",
     "Attachments/Pasted image 20230523102452.png",
     "Attachments/9.png",
-    "MOCs/_020 Computer Engineering MOC.md",
-    "MOCs/_030 Software Engineering MOC.md",
-    "Notes/Software Engineering/Software Development Process.md",
-    "Notes/Software Engineering/Software Languages.md",
-    "MOCs/_000 Work Bench.md",
     "Notes/Computer Engineering",
     "Notes/Machine Learning",
     "MOCs/_010 Machine Learning MOC.md",
-    "Attachments/Pasted image 20230521221615.png",
-    "Notes/Software Engineering/Software Designs.md",
-    "Attachments/Pasted image 20230521214904.png",
     "Notes/Machine Learning/Linear Classification.md",
     "Notes/Machine Learning/Perceptron Algorithm.md",
-    "Attachments/Pasted image 20230521161907.png",
-    "Attachments/Pasted image 20230521160836.png",
-    "MOCs/Computer Vision MOC.md",
     "MOCs/Chinese Short Fictions MOC.md",
     "Attachments/Pasted image 20230517122056.png~RF1b524df.TMP",
     "Attachments/Pasted image 20230519094932.png~RF1b524c0.TMP",
     "Notes/Feature Matching.md",
     "Notes/Watershed Algorithm.md",
     "Notes/Contour Detection.md",
-    "Notes/Segment Foreground and Background.md",
-    "Notes/Computer Vision/Object Detection.md",
-    "Notes/Grid Detection.md",
-    "Notes/Interests/Learning How To Learn.md",
-    "Templates/DataView/Notes YAML.md",
-    "Notes/Computer Vision/Edge Detection.md",
-    "Website/Creating a Portfolio Website.md",
-    "Notes/Interests/Reading Research Papers.md",
     "Notes/Computer Vision",
     "Website",
-    "Notes/Computer Vision/Corner Detection.md",
     "MOCs",
     "Attachments/Pasted image 20230505185105.png~RF14c98f36.TMP",
     "Notes/Programming",

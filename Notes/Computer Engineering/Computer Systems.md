@@ -3,7 +3,7 @@ tags: CE
 date: 17-05-2023
 type: 
  Note
- Incomplete
+ Complete
 summary: Computer Systems and how it relates to other concepts
 ---
 
@@ -26,6 +26,8 @@ Is the set of software that links together the programs in the computer system t
 
 An important concept the operating system must include is [[Multiprogramming In Computer Systems|Multiprogramming]] and [[Multiprogramming In Computer Systems#Timesharing and Context Switches|Timesharing]].
 
+We can [[OS Services and UI|access the OS]] through the GUI and CLI.
+
 ---
 
 #### Kernel
@@ -35,9 +37,9 @@ The Kernel is a program that serves as the "manager" or "handler" for the entire
 ==The kernel have full access/privilege to the computer's resources== (hardware) to carry out it's role as part of the operating system. This is also known as the **kernel mode**. As a result, the kernel will have full knowledge of where all the data is stored.
 
 **Managing Resources**
-When a program wants to use resources, it has to coordinate with the kernel and perform a [[Interrupts#Software Service Requests (System Calls)|system call]].
+When a program wants to use resources, it has to coordinate with the kernel and perform [[System Calls]].
 
-*More details:*
+**Protecting Resources**
 Since the kernel is so powerful, we need to ensure that we guard the kernel - not every program can access it's code/go in to kernel mode. Hence, this also means that the ==kernel must have controlled entry-points - Interrupts, Illegal Operations, Reset.==
 
 A consequence of these controlled entry-points lead to system calls: when a program wants to access resources (CPU, I/O devices, memory) from the computer.

@@ -8,7 +8,9 @@ summary: Details on the hardware and software interrupts and the way they are ha
 ---
 ## Overview
 
-There are mainly two types of interrupts, the hardware initiated (power button) and the software initiated which are also known as traps. The handling of the interrupts are always in kernel mode.
+There are mainly two types of interrupts, the hardware initiated (power button) and the software initiated which are also known as traps. The handling of the interrupts are always in kernel mode. 
+
+**==Hardware Interrupts are Asynchronous but system calls are not.==**
 
 **Traps:** a form of interrupt from user programs (software) due to a request/error.****
 
@@ -27,11 +29,14 @@ High level overview:
 **Poll Systems** routinely scan/poll the devices to know which device made a request.
 
 **Interrupt Vectors VS Polling**
-| Interrupt Vectors               | Polling                          |
-| ------------------------------- | -------------------------------- |
-| For complex systems             | For simpler systems              |
-| Many devices                    | Less devices                     |
-| Can handle high interrupt rates | Can handle lower interrupt rates |
+
+| Interrupt Vectors   | Polling             |
+| ------------------- | ------------------- |
+| For complex systems | For simpler systems |
+| Many devices        | Less devices        |
+| Can handle high interrupt rates                    |      Can handle lower interrupt rates               |
+
+
 
 ---
 
@@ -48,15 +53,10 @@ The input data is stored in the RAM - will wait for a program/process/applicatio
 
 ---
 
-## Software Service Requests (System Calls)
+## Linking up with [[System Calls]]
 
-Software (ie. applications, programs or processes) will have to make a system call to request for resources. This system call will trap the computer system and handle this request. ==There will be a SVC delay== which temporarily pauses the current process to handle the request.
-
-These requests link up directly with the hardware interrupts. I would imagine the system would be much more efficient if we are only interrupted by hardware when we want it to (system call).
-
-**Thought Process:**
-1. Software Request
-2. Kernel handles the request - ie ask from hardware to fulfil the request
+1. Software Request for [[OS Services and UI|OS Service]]
+2. [[Computer Systems#Kernel|Kernel]] handles the request - ie ask from hardware to fulfil the request
 3. **Return to Software** - because we don't want to freeze the system for one mere request.
-4. Hardware interrupt once it is ready to fulfil the request - send data to RAM
-5. CPU retrieves the relevant data from RAM for the software.
+4. [[Interrupts#General Procedure for **Hardware Interrupts**|Hardware Interrupt]] once it is ready to fulfil the request - send data to RAM
+5. CPU retrieves the relevant data from RAM and pass to software.

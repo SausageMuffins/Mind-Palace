@@ -22,11 +22,13 @@ The higher higher levels of programming languages like python or C for machines 
 **Mainly for machines to execute instructions (code)**: [[Software Development Process#Implementation|Implementation Stage]]
 
 
-#### [[Software Languages#Diagrams|Diagrams]]
+#### Diagrams
 
 Using many diagrams (UML, State machine etc) for documentation and display relations.
 
 **Mainly for modelling and showing relationships between classes/sub-systems**: [[Software Development Process#Design the system|Documentation in the Design Stage]]
+
+
 
 ---
 
@@ -35,13 +37,23 @@ Using many diagrams (UML, State machine etc) for documentation and display relat
 In a system, there can be multiple players - administrators, customers, maintenance engineers etc. The main concept here is to ==describe all of the ways a system can be used by the various players.== (as a high level idea)
 
 This can be done with the **Use Case Document**
+
 | Components of Use Case Document | Description                                 |
 | ------------------------------- | ------------------------------------------- |
 | Name                            | Should be self-explanatory for the use case |
 | Objective                       | The goal of the use case                    |
-| Actor                           | Which player does it involved - **pay attention to the player's context**              |
+| Actor                           | Which player (human) does it involved - **pay attention to the player's context**              |
 | Constraints                     | Rules and limitations                       |
 | Flow                                | What the system does when the player interacts with it                                             |
+
+#### More on Actors
+
+Questions to consider to determine the actors:
+- Who/what is/are the target of the system?
+- Who/what changes the data of the system?
+- Who/what interacts with the interface of the system?
+
+==Another machine can also be the actor.== eg: Printers or sub-systems.
 
 #### More on Constraints
 
@@ -63,4 +75,27 @@ Pre and Post conditions must be user observable states
 | Exception Flow                 |     An pathway to handle various errors                                 |
 
 
+#### Use Case Diagrams
 
+Diagrams are another way to show the interactions of the primary and secondary players.
+
+Information to capture in the use case diagram:
+1. The use cases - usually a verb (action)
+2. Pre-condition (what precedes the use case)
+3. Relationships between use cases (linked to point 1)
+
+![[Pasted image 20230523161922.png]]
+
+==The use case should only cover the key features of the app== - the extra details will be covered in the sequence diagram. 
+
+---
+
+## Misuse Cases
+
+Note that misuse case diagrams are technically also use cases but are not expected/wanted.
+
+For example: Hacking, Loop-holes, DDOS.
+
+Consider use cases to fight back the misuse cases (attacks).
+
+![[Pasted image 20230523170310.png]]

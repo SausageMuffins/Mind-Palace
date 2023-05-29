@@ -5,13 +5,13 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🧻",
       "🕸",
       "📚",
       "🔍",
       "📅",
       "🌆",
-      "📖",
-      "🥀"
+      "📖"
     ],
     "recentlyUsedIconsSize": 7,
     "rules": [],
@@ -36,5 +36,6 @@
   "Calendar": "📅",
   "Meetings": "🔍",
   "MOCs": "📚",
-  "Website": "🕸"
+  "Website": "🕸",
+  "Notes/Papers": "🧻"
 }
