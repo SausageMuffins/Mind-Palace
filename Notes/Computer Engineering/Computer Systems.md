@@ -4,7 +4,7 @@ date: 17-05-2023
 type: 
  Note
  Complete
-summary: Computer Systems and how it relates to other concepts
+summary: Computer Systems Overview. This concept is big picture that links all of the other concepts together.
 ---
 
 ## Overview
@@ -32,21 +32,19 @@ We can [[OS Services and UI|access the OS]] through the GUI and CLI.
 
 #### Kernel
 
-The Kernel is a program that serves as the "manager" or "handler" for the entire computer. It will allocate resources from the hardware (such as CPU, memory, I/O devices) for the processes.
+The Kernel is a program that serves as the "manager" or "handler" for the entire computer. 
 
 ==The kernel have full access/privilege to the computer's resources== (hardware) to carry out it's role as part of the operating system. This is also known as the **kernel mode**. As a result, the kernel will have full knowledge of where all the data is stored.
 
 **Managing Resources**
-When a program wants to use resources, it has to coordinate with the kernel and perform [[System Calls]].
+- When a program wants to use resources, it has to coordinate with the kernel and perform [[System Calls]].
 
 **Protecting Resources**
-Since the kernel is so powerful, we need to ensure that we guard the kernel - not every program can access it's code/go in to kernel mode. Hence, this also means that the ==kernel must have controlled entry-points - Interrupts, Illegal Operations, Reset.==
-
-A consequence of these controlled entry-points lead to system calls: when a program wants to access resources (CPU, I/O devices, memory) from the computer.
+-  ==Kernel must have controlled entry-points== - Interrupts, Illegal Operations, Reset.
+- Programs and processes can only perform [[System Calls]] when they want to access resources (CPU, I/O devices, memory) from the computer.
 
 **Scheduling Jobs and Instructions**
-
-The kernel is also responsible for scheduling different jobs and instructions for the CPU to execute to minimize idle time. This is highly related to the concept of [[Multiprogramming In Computer Systems|Multiprogramming]]
+- The kernel is also responsible for scheduling different jobs and instructions for the CPU to execute to minimize idle time. This is highly related to the concept of [[Multiprogramming In Computer Systems|Multiprogramming]]
 
 ---
 

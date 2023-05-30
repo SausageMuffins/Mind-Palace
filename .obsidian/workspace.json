@@ -4,37 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0ee7a824dc3de05b",
+        "id": "1b1a14bad22a0d0d",
         "type": "tabs",
         "children": [
           {
-            "id": "b38becab2d08bc75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOCs/Computer Vision MOC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2e37052bc82b5ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOCs/_020 Computer Engineering MOC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d1880956ae4521d",
+            "id": "ac277fbdc66f4fc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,46 +21,19 @@
             }
           },
           {
-            "id": "32a9709cbdca05bd",
+            "id": "55b078fae357f4bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Computer Engineering/Interrupts.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b6ae95e52635d76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/System Calls.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4012e4f23a75f91f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/OS Services and UI.md",
+                "file": "Notes/OS Designs and Principles.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Computer Engineering/Interrupts.md",
+                "file": "Notes/Computer Engineering/Computer Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Computer Engineering/Interrupts.md"
+                "file": "Notes/Computer Engineering/Computer Systems.md"
               }
             }
           },
@@ -219,48 +166,47 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "32a9709cbdca05bd",
+  "active": "ac277fbdc66f4fc9",
   "lastOpenFiles": [
-    "Notes/System Calls.md",
-    "Notes/Computer Engineering/Interrupts.md",
+    "Notes/OS Designs and Principles.md",
     "Notes/Computer Engineering/Computer Systems.md",
     "MOCs/_020 Computer Engineering MOC.md",
+    "MOCs/_030 Software Engineering MOC.md",
+    "MOCs/Chinese Short Fictions MOC.md",
+    "Notes/Software Engineering/Software Development Process.md",
+    "MOCs/SmartDrive.md",
+    "Notes/System Calls.md",
+    "Attachments/13.png",
+    "Attachments/12 2.png",
+    "Attachments/10 1.png",
+    "Attachments/10.png",
+    "Attachments/Pasted image 20230530151614.png",
     "MOCs/Computer Vision MOC.md",
+    "Notes/Software Engineering/Software Languages.md",
+    "Attachments/Pasted image 20230529144408.png",
+    "Attachments/Pasted image 20230529144056.png",
+    "Attachments/Pasted image 20230529140008.png",
+    "Attachments/Pasted image 20230529135125.png",
+    "Attachments/Pasted image 20230529134734.png",
+    "Notes/Computer Engineering/Interrupts.md",
     "Notes/OS Services and UI.md",
     "Notes/Deep Learning with Computer Vision.md",
-    "MOCs/_030 Software Engineering MOC.md",
-    "Notes/Software Engineering/Software Development Process.md",
     "Notes/Software Engineering/Software Designs.md",
-    "Notes/Software Engineering/Software Languages.md",
     "MOCs/_000 Work Bench.md",
     "Notes/Papers/A Smartphone-Based Drowsiness Detection and Warning System for Automotive Drivers.md",
     "Notes/Papers/Driver Alertness Monitoring Using Fusion of Facial Features and Bio-Signals.md",
     "Notes/Papers/Real-Time System for Driver Fatigue Detection by RGB-D Camera.md",
-    "MOCs/SmartDrive.md",
     "Meetings/Kick-Off Meeting with Prof Kenny.md",
     "Notes/Interests/Reading Research Papers.md",
-    "Attachments/Pasted image 20230523170310.png",
-    "Attachments/Pasted image 20230523170216.png",
-    "Attachments/Pasted image 20230523170215.png",
-    "Attachments/Pasted image 20230523161922.png",
     "Notes/Computer Engineering/Multiprogramming In Computer Systems.md",
-    "Attachments/Pasted image 20230523111849.png",
-    "Attachments/Pasted image 20230523103653.png",
-    "Attachments/12 1.png",
-    "Attachments/12.png",
-    "Attachments/Pasted image 20230523102452.png",
-    "Attachments/9.png",
     "Notes/Computer Engineering",
     "Notes/Machine Learning",
     "MOCs/_010 Machine Learning MOC.md",
     "Notes/Machine Learning/Linear Classification.md",
     "Notes/Machine Learning/Perceptron Algorithm.md",
-    "MOCs/Chinese Short Fictions MOC.md",
     "Attachments/Pasted image 20230517122056.png~RF1b524df.TMP",
     "Attachments/Pasted image 20230519094932.png~RF1b524c0.TMP",
     "Notes/Feature Matching.md",
-    "Notes/Watershed Algorithm.md",
-    "Notes/Contour Detection.md",
     "Notes/Computer Vision",
     "Website",
     "MOCs",
