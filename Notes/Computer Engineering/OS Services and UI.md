@@ -21,7 +21,7 @@ summary: Go in depth into the OS and learn about the different services the OS a
 
 *Resources:* The OS will also account for, manage, and allocate resources.
 
-*Security:* Access to the system resources is controlled (only [[Computer Systems#Kernel|kernel]] have)
+*Security:* Access to the system resources is controlled (only [[_020 Computer Engineering MOC#Kernel|kernel]] can give access/manage.)
 
 ---
 

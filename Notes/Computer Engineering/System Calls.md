@@ -69,7 +69,7 @@ Main Idea of how system calls are implemented:
 Imagine system calls as functions. Like any function, a system call may require certain parameters when we call it.
 
 
-1. **==**Pass directly into a register**==      
+1. ==**Pass directly into a register**==      
 	- Cons: There may be more parameters than registers
 	- Pros: Simple an Fast
 

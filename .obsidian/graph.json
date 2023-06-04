@@ -18,18 +18,32 @@
       "query": "tag:#CV",
       "color": {
         "a": 1,
-        "rgb": 15888647
+        "rgb": 11033114
       }
     },
     {
       "query": "tag:#CE",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 1796619
+      }
+    },
+    {
+      "query": "tag:#ML",
+      "color": {
+        "a": 1,
+        "rgb": 6765662
+      }
+    },
+    {
+      "query": "tag:#SE",
+      "color": {
+        "a": 1,
+        "rgb": 2498151
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -38,7 +52,7 @@
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 3.0829193826291763,
+  "linkDistance": 201,
+  "scale": 0.7979787102286724,
   "close": true
 }

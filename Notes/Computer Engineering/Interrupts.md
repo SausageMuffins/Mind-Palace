@@ -3,7 +3,7 @@ tags: CE
 date: 23-05-2023
 type: 
  Note
- Incomplete
+ Complete
 summary: Details on the hardware and software interrupts and the way they are handled.
 ---
 ## Overview
@@ -56,7 +56,7 @@ The input data is stored in the RAM - will wait for a program/process/applicatio
 ## Linking up with [[System Calls]]
 
 1. Software Request for [[OS Services and UI|OS Service]]
-2. [[Computer Systems#Kernel|Kernel]] handles the request - ie ask from hardware to fulfil the request
+2. [[_020 Computer Engineering MOC#Kernel|Kernel]] handles the request - ie ask from hardware to fulfil the request
 3. **Return to Software** - because we don't want to freeze the system for one mere request.
 4. [[Interrupts#General Procedure for **Hardware Interrupts**|Hardware Interrupt]] once it is ready to fulfil the request - send data to RAM
 5. CPU retrieves the relevant data from RAM and pass to software.
