@@ -3,7 +3,7 @@ tags: CE
 date: 29-05-2023
 type: 
  Note
- Incomplete
+ Complete
 summary: More information about requesting fro services (software perspective)
 ---
 
@@ -95,3 +95,12 @@ Note: System Programs are not user programs - user programs are downloaded/devel
 ##### **How are system programs related to system calls?**
 
 System programs can serve as the interface (API) for system calls. That is, we try to abstract away the details of the system calls with system programs. 
+
+
+## Link to [[Processes and Threads]]
+
+[[Processes and Threads#Process Termination|Abort or Terminate Processes]] will always need system calls
+- When there is an error, the program will cause an error trap -> core dump taken and generate error message
+
+System calls also directly help in [[Processes and Threads#Process Creation|process creation]] and [[Processes and Threads#Communication Between Processes (IPC)|IPC]].
+

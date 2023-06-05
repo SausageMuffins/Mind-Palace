@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c70a8e6bff1bf5e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOCs/_020 Computer Engineering MOC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "39ce81aac70efff0",
             "type": "leaf",
             "state": {
@@ -34,12 +21,12 @@
             }
           },
           {
-            "id": "449249f092d6c2b1",
+            "id": "612e3055fa7e1470",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Computer Engineering/System Calls.md",
+                "file": "Notes/Computer Engineering/Processes and Threads.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227,
-    "collapsed": true
+    "width": 227
   },
   "right": {
     "id": "35eb7310ba541277",
@@ -179,8 +165,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "39ce81aac70efff0",
+  "active": "612e3055fa7e1470",
   "lastOpenFiles": [
+    "Notes/Computer Engineering/Multiprogramming and Time-sharing.md",
+    "Notes/Computer Engineering/System Calls.md",
+    "Notes/Computer Engineering/Processes and Threads.md",
+    "MOCs/_020 Computer Engineering MOC.md",
     "Attachments/Pasted image 20230604232927.png",
     "Attachments/Pasted image 20230604232859.png",
     "Attachments/Pasted image 20230604232836.png",
@@ -188,18 +178,13 @@
     "Attachments/16.png",
     "Attachments/11.png",
     "Attachments/8.png",
-    "Notes/Computer Engineering/System Calls.md",
-    "Notes/Computer Engineering/Processes and Threads.md",
-    "MOCs/_020 Computer Engineering MOC.md",
     "Notes/Computer Engineering/OS Services and UI.md",
     "Notes/Computer Engineering/Computer Systems.md",
-    "Notes/Computer Engineering/Multiprogramming and Time-sharing.md",
     "Notes/Computer Engineering/Interrupts.md",
     "Attachments/6.png",
     "Attachments/5.png",
     "Notes/Computer Engineering/OS Designs and Principles.md",
     "Attachments/Pasted image 20230530225856.png",
-    "Attachments/1.png",
     "MOCs/_030 Software Engineering MOC.md",
     "MOCs/Chinese Short Fictions MOC.md",
     "Notes/Software Engineering/Software Development Process.md",
