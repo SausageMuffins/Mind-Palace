@@ -7,6 +7,7 @@ type:
 summary: 
 ---
 ## Needs Attention
+
 - [x] [[Software Development Process#Analysis|Analyse]] the requirements and have a set of open questions for the clients.
 
 ## Incomplete Notes

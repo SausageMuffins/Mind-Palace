@@ -41,9 +41,6 @@ The end goal of the analysis: **Domain Model**
 2. Analysis Classes
 3. The relationships and connections between every entity/requirements of the system.
 
-Open Questions that I have:
-
-
 
 ---
 
@@ -58,6 +55,7 @@ Naturally, every component/module will communicate with each other. Hence, estab
 2. Break down the design into easily implemented problems (**implementation units**)
 
 **Outcome:**
+
 - [ ] Clear decomposed subsystem
 
 ---
