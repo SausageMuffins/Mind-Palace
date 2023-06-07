@@ -13,14 +13,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Docker Cheatsheet.md",
+                "file": "MOCs/_010 Machine Learning MOC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08c3308edcce46f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Machine Learning/Linear Classification.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84874924711ebb9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Machine Learning/Perceptron Algorithm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45b3737c513b9ed4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Linear Regression.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61220cab756c12ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Gradient Descent.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -78,7 +131,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227
+    "width": 227,
+    "collapsed": true
   },
   "right": {
     "id": "35eb7310ba541277",
@@ -94,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Docker Cheatsheet.md"
+                "file": "Notes/Gradient Descent.md"
               }
             }
           },
@@ -123,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Docker Cheatsheet.md",
+                "file": "Notes/Gradient Descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,11 +205,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "57ab224d20c5c2fa",
+  "active": "61220cab756c12ae",
   "lastOpenFiles": [
-    "Notes/Software Engineering/Software Development Process.md",
-    "Notes/Docker Cheatsheet.md",
+    "Notes/Linear Regression.md",
+    "Notes/Gradient Descent.md",
+    "Notes/Machine Learning/Linear Classification.md",
+    "MOCs/_010 Machine Learning MOC.md",
+    "Notes/Machine Learning/Perceptron Algorithm.md",
     "MOCs/_030 Software Engineering MOC.md",
+    "Notes/Docker Cheatsheet.md",
+    "Notes/Software Engineering/Software Development Process.md",
     "Notes/Computer Engineering/Processes and Threads.md",
     "Notes/Computer Engineering/Multiprogramming and Time-sharing.md",
     "Notes/Computer Engineering/System Calls.md",
@@ -184,13 +243,8 @@
     "Notes/Papers/A Smartphone-Based Drowsiness Detection and Warning System for Automotive Drivers.md",
     "Notes/Papers/Driver Alertness Monitoring Using Fusion of Facial Features and Bio-Signals.md",
     "Notes/Papers/Real-Time System for Driver Fatigue Detection by RGB-D Camera.md",
-    "Meetings/Kick-Off Meeting with Prof Kenny.md",
-    "Notes/Interests/Reading Research Papers.md",
     "Notes/Computer Engineering",
     "Notes/Machine Learning",
-    "MOCs/_010 Machine Learning MOC.md",
-    "Notes/Machine Learning/Linear Classification.md",
-    "Notes/Machine Learning/Perceptron Algorithm.md",
     "Attachments/Pasted image 20230517122056.png~RF1b524df.TMP",
     "Attachments/Pasted image 20230519094932.png~RF1b524c0.TMP",
     "Notes/Computer Vision",
