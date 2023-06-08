@@ -3,8 +3,8 @@ tags: SE
 date: 22-05-2023
 type: 
  Note
- Incomplete
-summary: Choice of language for communicating everything software related.
+ Complete
+summary: The different ways to communicate ideas, systems and plans for documentation or project meetings.
 ---
 
 ## Spectrums
@@ -94,9 +94,7 @@ Information to capture in the use case diagram:
 
 ==The use case should only cover the key features of the app== - the extra details will be covered in the sequence diagram. 
 
----
-
-## Misuse Cases
+#### Misuse Cases
 
 Note that misuse case diagrams are technically also use cases but are not expected/wanted.
 
@@ -168,3 +166,39 @@ Some explanations for not so straightforward terms:
 
 **==Always read from the side with no numbers first==**
 
+---
+
+## State Machine Diagram
+
+Every SM diagram have states, transitions and the start/end.
+
+**States:**
+- Every state must be an [adjective](https://www.merriam-webster.com/dictionary/adjective) - something that describes an object.
+- A state can also have **state actions** which describes what the state will when an event occurs during the state. eg: on entry and on exit of the state.
+
+![[Pasted image 20230607105629.png]]
+
+
+**Transitions:** Every transition is an arrow and should be labelled with an event or action.
+
+![[Pasted image 20230607105657.png]]
+
+Examples of State Machine Diagrams:
+
+![[Pasted image 20230607105728.png]]
+![[Pasted image 20230607105740.png]]
+
+
+#### Concurrent States
+
+We use these concurrent states when states  occur in parallel -> useful when we have multiple actors involved that interacts with each other. Simply draw two different mini SM diagrams within the overarching SM.
+
+![[Pasted image 20230607105915.png]]
+
+#### Compound States
+
+States within states -> useful when we want to describe in more detail/granular.
+
+![[Pasted image 20230607110027.png]]
+
+---

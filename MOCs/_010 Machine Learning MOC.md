@@ -6,9 +6,6 @@ type:
  Active
 summary: 
 ---
-## Needs Attention
-- [ ] Default Task
-
 ## Incomplete Notes
 ```dataview
 TABLE summary as Summary
@@ -35,4 +32,9 @@ SORT date asc
 #### Supervised Learning
 1. [[Linear Classification]]
 	1. [[Perceptron Algorithm]]
+	2. [[Gradient Descent#Linear Regression|Gradient Descent]]
+2. [[Linear Regression]]
+3. [[Ridge Regression]]
 
+#### Unsupervised Learning
+1. [[K-Clustering]]

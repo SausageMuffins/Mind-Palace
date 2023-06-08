@@ -62,6 +62,14 @@ A data set can also be linearly separable without cutting through the origin.
 
 ---
 
+## Optimization
+
+![[Gradient Descent#Linear Classification]]
+
+
+
+---
+
 ## Thoughts
 
 1. The linear classifier can potentially run forever as there is no guarantee we can find a classifier with a percentage error of 0. - assuming we don't set a fixed number of iterations.

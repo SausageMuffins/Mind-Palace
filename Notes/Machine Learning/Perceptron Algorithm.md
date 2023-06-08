@@ -3,7 +3,7 @@ tags: ML
 date: 21-05-2023
 type: 
  Note
- Incomplete
+ Complete
 summary: An algorithm to make linear classification learn from mistakes.
 ---
 
