@@ -1,10 +1,9 @@
 ---
 tags: ML
 date: 21-05-2023
-type: 
- Note
- Complete
-summary: A supervised learning method for ML that classifies objects into two categories using a classifier function.
+type: Note Complete
+summary: A supervised learning method for ML that classifies objects into two
+  categories using a classifier function.
 ---
 
 ## General Idea
@@ -64,7 +63,7 @@ A data set can also be linearly separable without cutting through the origin.
 
 ## Optimization
 
-![[Gradient Descent#Linear Classification]]
+![[Optimization in Machine Learning#Linear Classification]]
 
 
 

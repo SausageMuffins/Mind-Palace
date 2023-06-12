@@ -33,7 +33,7 @@ The ideal case is to have a balance of both -> minimizes both errors. To do that
 
 ## Optimization
 
-![[Gradient Descent#Ridge Regression]]
+![[Optimization in Machine Learning#Ridge Regression]]
 
 ---
 
@@ -46,4 +46,4 @@ $$\hat{\theta} = (X^TX + n\lambda I)^{-1}(X^T\vec{y})$$
 
 ## Thoughts:
 
-- While exact solutions may exist, it is often not always the best idea to straight away use the exact solution. This applies to [[Linear Regression]] as well. The reason for this is that a practical solution has to be solvable in a reasonable amount of time! If it takes too long to achieve the exact solution through [[Gradient Descent]], then we don't really have a practical solution. 
+- While exact solutions may exist, it is often not always the best idea to straight away use the exact solution. This applies to [[Linear Regression]] as well. The reason for this is that a practical solution has to be solvable in a reasonable amount of time! If it takes too long to achieve the exact solution through [[Optimization in Machine Learning]], then we don't really have a practical solution. 

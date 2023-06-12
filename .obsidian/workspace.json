@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "43ca8a5f38136135",
+        "id": "c8ccdca4629f33c1",
         "type": "tabs",
         "children": [
           {
-            "id": "112a5f3ba3d886f8",
+            "id": "2fb13b55c62200af",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Notes/Machine Learning/K-Clustering.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Attachments/PDF Notes/ML Course Slides/07-MDP-Slides.pdf"
               }
             }
           }
@@ -78,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297
+    "width": 232.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "35eb7310ba541277",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf"
+                "file": "Attachments/PDF Notes/ML Course Slides/07-MDP-Slides.pdf"
               }
             }
           },
@@ -133,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf",
+                "file": "Attachments/PDF Notes/ML Course Slides/07-MDP-Slides.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,12 +142,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 203.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,22 +157,33 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "17a5041ce0cca87a",
+  "active": "2fb13b55c62200af",
   "lastOpenFiles": [
+    "Notes/Markov Decision Process.md",
+    "Notes/Machine Learning/Optimization in Machine Learning.md",
+    "Attachments/PDF Notes/ML Course Slides/07-MDP-Slides.pdf",
+    "MOCs/_010 Machine Learning MOC.md",
     "Notes/Machine Learning/K-Clustering.md",
+    "Attachments/PDF Notes/ML Course Slides/06-KMedoids-Slides.pdf",
+    "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
+    "Attachments/Pasted image 20230611214149.png",
+    "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf",
+    "Attachments/PDF Notes/ML Course Slides/05-KMeans-Slides.pdf",
+    "Attachments/Pasted image 20230610202940.png",
+    "Attachments/Pasted image 20230610202925.png",
+    "Notes/Machine Learning/Linear Regression.md",
+    "Attachments/PDF Notes/CSE Course Notes/ch6-2021-release.pdf",
+    "Notes/Programming/JavaScript Cheatsheet.md",
+    "Attachments/PDF Notes/SE Course Notes/week 4/week4slides-C.pdf",
+    "Notes/Machine Learning/Linear Classification.md",
     "Attachments/PDF Notes/SE Course Notes/week 5/week5c_expressjs.pdf~RFa2ed02d.TMP",
     "Notes/Machine Learning/ML Course Slides/01-Introduction-Slides.pdf",
     "Attachments/PDF Notes/HASS Chinese Short Fiction/week 5/The Story of Ying-ying.pdf",
     "Attachments/PDF Notes/HASS Chinese Short Fiction/week 5/The Courtesan Li Wa.pdf",
-    "Attachments/PDF Notes/HASS Chinese Short Fiction/week 5/Prince Huo's Daughter.pdf",
-    "Attachments/PDF Notes/HASS Chinese Short Fiction/week 5",
-    "Attachments/PDF Notes/HASS Chinese Short Fiction/week 4/The White Monkey.pdf",
-    "Attachments/PDF Notes/HASS Chinese Short Fiction/week 4/The Man with the Curly Beard.pdf",
-    "Attachments/PDF Notes/HASS Chinese Short Fiction/week 4/The K'un Lun Slave.pdf",
-    "Attachments/PDF Notes/HASS Chinese Short Fiction/week 4/Nieh Yin-Niang.pdf",
     "Attachments/PDF Notes/HASS Chinese Short Fiction/week 2/Screenshot 2023-05-22 001027.jpg",
     "Attachments/PDF Notes/SE Course Notes/week 2/week 2 cohort-6.jpg",
     "Attachments/PDF Notes/SE Course Notes/week 2/week 2 cohort-5.jpg",
@@ -182,32 +191,22 @@
     "Attachments/PDF Notes/SE Course Notes/week 2/week 2 cohort-3.jpg",
     "Attachments/PDF Notes/SE Course Notes/week 2/week 2 cohort-2.jpg",
     "Attachments/PDF Notes/SE Course Notes/week 2/week 2 cohort-1.jpg",
-    "Attachments/PDF Notes/SE Course Notes/week 1/week 1 cohort - decomposition-1.jpg",
-    "Attachments/PDF Notes/SE Course Notes/week 4/20230606_091346053_iOS.png",
-    "Attachments/PDF Notes/SE Course Notes/week 3/20230602_042837022_iOS.png",
     "Notes/Meetings/Kick-Off Meeting with Prof Kenny.md",
     "Papers/Real-Time System for Driver Fatigue Detection by RGB-D Camera.md",
     "Papers/Driver Alertness Monitoring Using Fusion of Facial Features and Bio-Signals.md",
     "Papers/A Smartphone-Based Drowsiness Detection and Warning System for Automotive Drivers.md",
-    "MOCs/_010 Machine Learning MOC.md",
     "Notes/Machine Learning/Ridge Regression.md",
-    "Notes/Machine Learning/Gradient Descent.md",
     "MOCs/Chinese Short Fictions MOC.md",
     "MOCs/_020 Computer Engineering MOC.md",
-    "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
     "Notes/Computer Engineering/Multiprogramming and Time-sharing.md",
     "Notes/Computer Engineering/Processes and Threads.md",
     "MOCs/_030 Software Engineering MOC.md",
     "Notes/Software Engineering/Software Languages.md",
-    "Notes/Machine Learning/Linear Classification.md",
-    "Notes/Machine Learning/Linear Regression.md",
     "Notes/Machine Learning/Perceptron Algorithm.md",
     "Notes/Obsidian/MarkDown Cheat Sheet For Obsidian.md",
     "Notes/Obsidian/Mastering Obsidian MOC.md",
     "Notes/Interests/Docker Cheatsheet.md",
     "Notes/Software Engineering/Software Development Process.md",
-    "Notes/Computer Engineering/System Calls.md",
-    "Notes/Computer Engineering/OS Services and UI.md",
-    "Notes/Computer Engineering/Computer Systems.md"
+    "Notes/Computer Engineering/System Calls.md"
   ]
 }

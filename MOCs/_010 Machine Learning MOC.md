@@ -32,9 +32,14 @@ SORT date asc
 #### Supervised Learning
 1. [[Linear Classification]]
 	1. [[Perceptron Algorithm]]
-	2. [[Gradient Descent#Linear Regression|Gradient Descent]]
+	2. [[Optimization in Machine Learning#Linear Regression|Gradient Descent]]
 2. [[Linear Regression]]
 3. [[Ridge Regression]]
 
 #### Unsupervised Learning
 1. [[K-Clustering]]
+	1. k Medoids
+	2. k Centroids
+
+#### Reinforcement Learning
+[[Markov Decision Process]]
