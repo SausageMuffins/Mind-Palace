@@ -111,7 +111,7 @@ Most appropriate for single core systems. --> makes it unviable for modern compu
 
 ### Hardware Solutions
 
-**==Hardware Locking:==** The main idea here is that only one process or thread can "lock" the hardware out of other processes. This can be super fast but is primitive and the number of locks are physically limited by the system -> each piece of hardware need additional components. ie. it is not scalable.
+**==Hardware Locking:==** The main idea here is that only one process or thread can "lock" the hardware out of other processes. This can be super fast but is primitive and the number of locks are physically limited by the system -> each piece of hardware need additional components. ie. it is not scalable. ^571f0e
 
 *We do not need the kernel for this since it's hard coded into the hardware.*
 
@@ -192,3 +192,30 @@ A type of busy waiting is known as spinlocks. There are solutions to the [[Synch
 
 ---
 
+## Java Implementation to Synchronization
+
+### Java Object Mutex Locks
+
+![[3.png]]
+
+The main idea here is that threads of an object have to queue up (**blocked**) to possess the lock. Once the thread obtains the hardware lock, it leaves the entry set and becomes **runnable.** After the thread is done, it will release the object lock.
+
+==The entry set contain the threads waiting to acquire the lock (to enter critical section) whereas the wait set contain the threads waiting for a condition to happen so that they can join the entry set.==
+
+The way this works is through the **notify()** and **wait()** calls. Note: these two atomic calls belong to the thread and are not from the semaphore - (wait and signal).
+
+**Wait():**
+Whenever a thread wants to enter a synchronized block / critical section, it will call the wait method. If the critical section lock is available, the thread can enter and "own" the lock. Subsequently, any other thread that tries to enter will be blocked/put to sleep.
+
+**Notify() and NotifyAll():**
+After a thread possessing the lock finished it's task (critical section), the thread can **yield()** it's CPU resource to signal to the scheduler and CPU that it can be rescheduled. Additionally, the thread will also call **Notify() or NotifyAll()** to wake up a thread / all the threads. This will allow the threads that were woken up be to be scheduled to enter the critical section.
+
+**Condition Variables:**
+These variables are another method to solve the critical solution problem. They are essentially a shared variable (using [[Synchronization Problems in Computer Systems#^571f0e|hardware locks]]) between threads. It is similar to the wait and notify method but it calls **await() and signal()** instead. 
+
+Main idea:
+1. Thread i enters the critical section because the conditional variable (which is an array) allows it to. ie. thread i has met it's condition to enter.
+2. Once thread i is done, it will use the signal() method to literally signal the next thread (could be in a queue) to enter the critical section.
+3. Other threads will be blocked as their condition is not met until the current working thread finishes and signals (switching on their condition) the next thread to start.
+
+---
