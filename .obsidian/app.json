@@ -21,8 +21,8 @@
     "includeName": true,
     "pageSize": "A4",
     "landscape": false,
-    "margin": "1",
-    "downscalePercent": 80
+    "margin": "0",
+    "downscalePercent": 50
   },
   "showFrontmatter": true
 }

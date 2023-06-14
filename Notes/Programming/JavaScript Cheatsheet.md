@@ -241,3 +241,44 @@ Math.floor(Math.random() * 5) + 1;  // random integer, from 1 to 5
 ## Errors
 
 ### Exceptions
+
+
+---
+## Promises
+
+An object that describes the state of an asynchronous task.
+
+Pending: Initial state -> task is still happening
+Fulfilled: Task is completed --> use the **resolve()** callback
+Rejected: Task failed --> use the **reject()** callback
+
+Example Code:
+```js
+const fetchData = () => {
+
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const data = 'Some data';
+      if (data) {
+        resolve(data); // Operation succeeded - return data value
+      } else {
+        reject(new Error('Data not found')); // Operation failed - return error object
+      }
+    }, 2000); // 2000ms --> 2 seconds
+  });
+};
+
+fetchData()
+  .then((result) => { // fulfilled promise
+    console.log('Data:', result); // Executed when the promise is resolved
+  })
+  .catch((error) => { // rejected promise
+    console.log('Error:', error); // Executed when the promise is rejected
+  });
+
+```
+
+==Promises allow you to write asynchronous code in a more structured and readable manner, avoiding deeply nested callbacks (known as "callback hell") and facilitating error handling.==
+
+---
+

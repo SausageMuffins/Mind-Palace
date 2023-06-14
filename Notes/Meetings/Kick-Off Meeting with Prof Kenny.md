@@ -8,7 +8,7 @@ summary: Official start to the UROP SmartDrive + Things to do.
 - [x] Learn about CV
 - [x] Free access to Udemy NLB 
 - [x] Reading [How to read a paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf) 
-- [ ] Find related data sets. 
+- [x] Find related data sets. 
 
 #### Find Papers
 1. Google Scholar
