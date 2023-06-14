@@ -3,8 +3,8 @@ tags: ML
 date: 12-06-2023
 type: 
  Note
- Incomplete
-summary: 
+ Complete
+summary: MDP is a reinforcement learning type of ML. This form of learning is slightly different from unsupervised learning as it the agent (computer) is learning from interactions with it's environment (rewards).
 ---
 
 ## Overview
@@ -93,6 +93,8 @@ Therefore, when we define optimal policy to be the best action to choose from cu
 $$\pi ^*(s) = arg\ max_aQ^*(s,a)$$
 
 
+---
+
 #### Q-Value Iteration (More of a Bottom-up Approach)
 We have seen from the value iteration that getting the optimal policy and optimal value seems to rely on the Optimal Q-value. This begs the question: *Can we just directly calculate optimal Q-Value?*
 
@@ -110,6 +112,8 @@ Naturally, we can obtain the optimal value from after we get the optimal Q-value
 
 $$\pi ^*(s) = arg\ max_aQ^*(s,a)$$
 
+---
+
 #### Policy Iteration
 Since we can get Q straight away, is there a way to get the policy straight away? Lol keep looking for short cuts!
 
@@ -125,3 +129,28 @@ Answer: Somewhat --> we can guess and check to improve along the way until conve
 Under some conditions, policy iteration can actually converge much faster!
 
 ---
+
+#### Q-Learning
+
+Iteratively getting the Q-value can be super inefficient (high time and space complexity) and the agent may not always be able to fully interact with the environment. Hence, we need a more realistic method that can help the agent learn the environment as it goes and estimate the optimal policy.
+
+We can do this by **==looking one step ahead and updating our current estimate with a new estimate.==**
+
+This method is follows the main principle of [[Optimization in Machine Learning]]: minimize loss by moving in the opposite direction of the gradient.
+
+In this context the loss function is:  **Temporal Difference Error**
+
+TDE is basically finding the difference between the new estimate (by looking one action ahead) and the current estimate. Because we have a new observation (reward of the next state) the new estimate should be a more accurate/closer to the actual optimal Q-value for state s.
+
+$$TD\ Error = new\ Q\ estimate - old\ Q\ estimate$$
+$$TD\ Error = [R(s,a,s') + \gamma \ max_{a'}Q_{old}(s',a')] - Q_{old}(s,a)$$
+
+After we found the "loss", we want to move in the opposite direction to minimize this loss.
+
+$$Q_{new}(s,a) = Q_{old}(s,a) - \alpha \ TD\ Error$$
+
+Expanding the formula for TD error, we get:
+
+$$Q_{new}(s,a) = (1-\alpha)Q_{old}(s,a) - \alpha[R(s,a,s') + \gamma \ max_{a'}Q(s',a')]$$
+
+where $\alpha$ is the learning rate!

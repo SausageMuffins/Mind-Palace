@@ -77,6 +77,17 @@ Most user and system programs will have to perform a ==system call which would u
 
 This system call is handled by the operating system, or in particular, the [[_020 Computer Engineering MOC#Kernel|kernel]]. When we perform system calls, we are also [[Interrupts|interrupting]] the system and the current process.
 
+
+#### Concurrent and Parallel Processing
+
+Processes are defined as an active program (one that is executing). Threads are part of a program/process (imagine them as a segment of a process).
+
+When we say concurrent, we are really just saying [[Processes and Threads#^73f7be|context switching]] really fast and synchronizing well with other processes/threads. Though this may have it's own set of [[Synchronization Problems in Computer Systems|problems]].
+
+Parallel programming on the other hand, makes use of the available hardware such that multiple processes / threads can make progress simultaneously. This can be constrained by the hardware (eg: number of cores in the CPU) support.
+
+
+
 ---
 
 ## Memory

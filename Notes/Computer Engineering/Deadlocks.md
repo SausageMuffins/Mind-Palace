@@ -1,10 +1,10 @@
 ---
-tags: CSE
+tags: CE
 date: 13-06-2023
 type: 
  Note
- Incomplete
-summary: 
+ Complete
+summary: The idea that processes are stuck waiting for a resource that is being held by other processes in the same scenario. The various methods to avoid, detect and solve deadlocks.
 ---
 
 ## Dead Lock Problem
@@ -82,5 +82,34 @@ The bankers algorithm keeps in mind the main idea for avoiding a deadlock --> ch
 Main Idea: We allow deadlocks to occur but we constantly check for them. Once **detected**, we break them apart (**recovery**).
 
 
+
 #### Prevention
 Main Idea: Impose conditions on all resource requests --> we ensure that we **never** enter a deadlock state --> this means we don't even need to check.
+
+==**Hold and Wait Prevention:**==
+Ensure a process can only enter critical section if 1. can obtain all resources and 2. request only if it has no resources. Basically just wait empty handed until it can access all of the resources it needs. Once it is done, it will release both resources together.
+
+*Disadvantages:*
+1. Starvation -> process may never run if resources are scarce (many processes requesting for different resources)
+2. Inefficient -> time is wasted when waiting for all the resources to be available and releasing all at once + not all resources are used immediately -> some can be used later in the process which again, wastes time
+
+==**No Preemption Prevention: Allow resources to be released by processes**== 
+Resources can be released in two ways -> by other processes or the process currently holding the lock. This method is ideal for processes that can easily save it's state.
+
+Hence the main method to allow pre-emption would be to:
+
+1. All resources the current process is holding is implicitly released (preempted)
+2. P1 ask P2 to release it's resources: which may include 2 scenarios
+	1. P2 is waiting for another resource by another process P3 -> P2 will save it's state and release it's resource to P1.
+	2. P2 is not waiting for another process and will finish it's task or not available -> P1 will just wait for P2.
+
+==**Circular Wait Prevention:**==
+Establish a hierarchy amongst the resources and processes must request resources while obeying this hierarchy.
+
+How the protocols are enforced:
+1. If a process request for a resource that has a higher priority than some/all of it's currently held resources, the process must release those that are or lower priority
+2. Ideally, a process should only request for resources that are of higher priority than it's currently held resources.
+
+*Disadvantages:*
+1. Inefficient. Because of the second protocol, a process may request for a low priority resource which may only be used much later on. 
+2. Maintaining the priority order of resources.

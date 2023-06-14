@@ -4,12 +4,12 @@ date: 08-06-2023
 type: 
  Note
  Complete
-summary: 
+summary: K-Means Clustering is a type of unsupervised learning in ML. The main idea here is that we are quite literally clustering data and repositioning our center (centroid/medoid) such that it's the best fit for the data set.
 ---
 
 ## Overview
 
-K-Means Clustering is a type of unsupervised learning in ML. The main idea here is that we are quite literally clustering data and repositioning our cluster such that it's the best fit for the data set.
+K-Means Clustering is a type of unsupervised learning in ML. The main idea here is that we are quite literally clustering data and repositioning our center such that it's the best fit for the data set.
 
 The "means" in the K-means refers to averaging the data; that is, finding the centroid.
 

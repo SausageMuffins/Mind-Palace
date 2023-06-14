@@ -9,9 +9,10 @@ summary: The optimization algorithm to improve models
 
 ## Overview
 
-This algorithm is literally just finding the global minimum point in a hyperplane. The main idea is to move in the opposite direction of the gradient to go to the steepest point. 
+The main idea here for all the optimization algorithms is that we want to move in the opposite direction of the gradient such that we decrease the calculated loss. 
 
-**==WE JUST WANT TO MINIMIZE LOSS IN EVERY CASE!==**
+The loss functions can come in many forms but the main objective is the same: ==minimize the loss!==
+
 
 ---
 
@@ -102,7 +103,7 @@ Note:
 
 #### Value Iteration
 1. Start with $V^*(s) =0$ for all states.
-2. Update $V^*_{i+1} for all Vs.$
+2. Update $V^*_{i+1} \forall \ Vs.$
 	1. $V^*_{i+1} = max_a(T(s,a,s')[R(s,a,s') + \gamma V_i^*(s')]\ \forall a)$
 3. Repeat until convergence (guaranteed because of gamma)
 
@@ -113,9 +114,13 @@ Note:
 	1. $Q^*_{i+1} = T(s,a,s')[R(s,a,s') + \gamma max_a(Q_i^*(s',a'))]\ \forall a$
 3. Repeat until convergence (guaranteed because of gamma)
 
+
 #### Policy Iteration
 1. Evaluate: find all values with the current policy
 $$V^{\pi_i}_{k+1}(s) = T(s, \pi_i(s),s')[R(s,\pi_i(s), s') +\gamma V_k^{\pi_i}(s')]\ \forall \ s'$$
 
 2. Improve: Correct the policy (one-step look-ahead)
 $$\pi_{i+1} = argmax_a(T(s,a,s')[R(s,a,s')+ \gamma V^{\pi_i}(s'))$$
+
+
+#### Q-Learning

@@ -42,4 +42,4 @@ SORT date asc
 	2. k Centroids
 
 #### Reinforcement Learning
-[[Markov Decision Process]]
+1. [[Markov Decision Process]]

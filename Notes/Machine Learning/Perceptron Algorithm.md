@@ -4,7 +4,7 @@ date: 21-05-2023
 type: 
  Note
  Complete
-summary: An algorithm to make linear classification learn from mistakes.
+summary: An algorithm to learn from mistakes.
 ---
 
 ## General Idea

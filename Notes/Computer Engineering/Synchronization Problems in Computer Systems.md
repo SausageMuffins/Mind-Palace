@@ -3,8 +3,8 @@ tags: CE
 date: 07-06-2023
 type: 
  Note
- Incomplete
-summary: The potential (sync) issues a computer system can face and the solutions to resolve them. Producer-Consumer problem, race conditions, critical section problems
+ Complete
+summary: The potential (sync) issues a computer system can face and the solutions to resolve them. Producer-Consumer problem, race conditions, critical section problems. Solved by software and hardware solutions (peterson's solution and hardware locks) as well as semaphores to reduce busy waiting.
 ---
 
 ## Parallel vs Concurrency
