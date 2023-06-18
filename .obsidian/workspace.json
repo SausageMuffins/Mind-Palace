@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9478555d3fcb67ce",
+        "id": "5ffe40b0b637db69",
         "type": "tabs",
         "children": [
           {
-            "id": "c5d5e3bed4483499",
+            "id": "044604ea4a6bce72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md",
+                "file": "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.50260543823242
+    "width": 232
   },
   "right": {
     "id": "35eb7310ba541277",
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md",
+                "file": "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,47 +125,21 @@
             }
           },
           {
-            "id": "5063cbfe547058f4",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "2) Data Driven World/week 2/Binary Heaps.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "9adcf7cfdfcdb111",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md"
+                "file": "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md"
               }
             }
           }
-        ]
-      },
-      {
-        "id": "f9148c3db099d88e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7e15085ec3ca52a4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 223.5,
-    "collapsed": true
+    "width": 254
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,8 +153,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c5d5e3bed4483499",
+  "active": "044604ea4a6bce72",
   "lastOpenFiles": [
+    "MOCs/_020 Computer Engineering MOC.md",
+    "Notes/Computer Engineering/Deadlocks.md",
+    "MOCs/Computer Vision MOC.md",
+    "Notes/Computer Engineering/Processes and Threads.md",
+    "Notes/Computer Engineering/System Calls.md",
     "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md",
     "3) Design Energy Systems/week 4/Exergy.md",
     "1) Modelling Uncertainty/week 4/Bayes Theorem.md",

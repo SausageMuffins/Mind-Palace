@@ -24,5 +24,6 @@
     "margin": "0",
     "downscalePercent": 50
   },
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "readableLineLength": false
 }

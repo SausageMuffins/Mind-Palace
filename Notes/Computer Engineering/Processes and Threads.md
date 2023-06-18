@@ -22,7 +22,7 @@ We can visualize the states of a process as a state machine
 - **Concurrency** - Each process runs in it's own virtual machine ^57d863
 	- Stack
 	- Data
-	- Program Counter
+		- Program Counter
 	- Heap
 -  **Protection** - **Private Address Space**
 	- Not accessible by other processes (by default) - protects the process from being altered by another program.
@@ -112,6 +112,8 @@ Another interface for message passing is a **message queue**.
 
 We generally create processes using the **fork** [[System Calls|system call]]. There will always be a parent process and a child process -> we end up getting something like a tree!
 
+**`fork()` returns 0 in the child process while in the parent process it returns the pid of the child (>0).**
+
 ![[8.png]]
 
 
@@ -123,6 +125,8 @@ We generally create processes using the **fork** [[System Calls|system call]]. T
 
 ![[11.png]]
 
+---
+
 ### Example code
 
 ```c
@@ -130,27 +134,31 @@ We generally create processes using the **fork** [[System Calls|system call]]. T
 #include <sys/types.h>
 #include <stdio.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 int main(int argc, char const *argv[])
 {
    pid_t pid;
 
    pid = fork();
-   printf("pid: %d\n", pid);
+   printf("Return value of fork stored in variable pid is: %d\n", pid);
 
-   if (pid < 0) // ERROR
+   if (pid < 0)
    {
        fprintf(stderr, "Fork has failed. Exiting now");
        return 1; // exit error
    }
-   else if (pid == 0) // CHILD EXECUTES
+   else if (pid == 0)
    {
-       execlp("/bin/ls", "ls", NULL);
+    // child
+    printf("This is child process with pid %d\n", getpid());
+    exit(0);
    }
-   else // PARENT EXECUTES CONCURRENTLY
+   else
    {
-       wait(NULL);
-       printf("Child has exited.\n");
+    // parent
+    wait(NULL); // wait for any child to return
+    printf("This is parent process with pid %d\n", getpid()); // getpid here is the process's (parent's) own pid.
    }
    return 0;
 }
@@ -235,7 +243,7 @@ $N$ : the number of CPU cores.
 ---
 ## Threads
 
-Threads are parts of a process -> if a process a a layer of cloth, threads are quite literally, the threads. **Threads are managed by the thread scheduler!**
+Threads are parts of a process -> if a process is a piece of cloth, threads are quite literally, the threads. **Threads are managed by the thread scheduler!**
 
 **Characteristics:**
 1. Possess a thread ID
@@ -276,7 +284,7 @@ Kernel threads are typically needed when we have to wait for an asynchronous eve
 
 **Runnable Interface**
 
-The first way is by implementing a **runnable interface** and call it using a thread:
+The first way is by implementing a **runnable interface** then call it using a thread:
 
 ```java
     public class MyRunnable implements Runnable {
@@ -297,7 +305,7 @@ thread.start();
 
 **Thread subclass**
 
-The second way is to create a **subclass** of `Thread` and override the method `run():`
+The second way is to create is a **subclass** of `Thread` and override the method `run():`
 
 ```java
     public class CustomThread extends Thread {

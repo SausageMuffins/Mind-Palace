@@ -49,14 +49,14 @@ This example showcases the problem of race condition where a program can execute
 
 ## Atomicity of Operations / Processes
 
-An **Atomic Process** cannot be interrupted and guarantees that it will execute. In the context of the race problems and concurrency, these processes are very important in preventing race conditions. This overview of atomic operations are highly relevant to [[Synchronization Problems in Computer Systems#Hardware Solutions|this segment about hardware solutions]].
+An **Atomic Process** cannot be interrupted and guarantees that it will execute. In the context of the race problem and concurrency, these processes are very important in preventing race conditions. This overview of atomic operations are highly relevant to [[Synchronization Problems in Computer Systems#Hardware Solutions|this segment about hardware solutions]].
 
 **==Critical Section Problem==**
-Using an atomic process ensures the execution of **critical operations** on shared resources. These lines of code that are "critical operations" are also known as the critical section  ^bbdac0
+Using an atomic process ensures the execution of critical operations on shared resources. These lines of code that are "critical operations" are also known as the critical section  ^bbdac0
 
 From the above example, x is the shared variable and adding to x is a critical section!
 
-Formal Definition: The issue of synchronizing access to shared resources in a way that ensures ==mutual exclusion== (mutex) and ==progress.== Having progress also implies that every process cannot execute forever and have a fixed number of times to enter the critical section -> ==bounded waiting time==.
+**Formal Definition:** The issue of synchronizing access to shared resources in a way that ensures ==mutual exclusion== (mutex) and ==progress.== Having progress also implies that every process cannot execute forever and have a fixed number of times to enter the critical section -> ==bounded waiting time==.
 
 This results in a process with two properties: **safe (no race conditions)** and **liveness** (making progress = no hang). There are two main solutions for this problem - rely or don't rely on busy waiting.
 
@@ -71,7 +71,7 @@ A type of busy waiting is known as spinlocks. There are solutions to the [[Synch
 
 ---
 
-## Solutions
+# Solutions
 
 ---
 
@@ -85,6 +85,10 @@ Mutex is just short form for mutual exclusion --> The algorithm ensures no two p
 
 Initialization: all flags for every process == false, set "turn" into arbitrary numbers. 
 
+Assumptions:
+1. all LD and ST are atomic operations
+2. only 2 processes execute one after another (alternate).
+
 Main Idea: 
 flag == True/False which means the process is READY/NOT READY to enter critical section.
 turn = i which means it is process i's turn to enter critical section.
@@ -96,16 +100,16 @@ The flag mainly ensures ==mutual exclusion== and the turn ensures ==progress==. 
 do{
    flag[i] = true;
    turn = j;
-   while (flag[j] && turn == j); // this is a while LINE
+   while (flag[j] && turn == j); // this is a while LINE -- BUSY WAIT HERE
    // CRITICAL SECTION HERE
    // ...
    flag[i] = false;
-   // REMAINDER SECTION HERE
+   // REMAINDER SECTION HERE -- Remember to change back.
    // ...
 }while(true)
 ```
 
-Most appropriate for single core systems. --> makes it unviable for modern computers because it does [not guarantee to work on modern computers](https://natalieagus.github.io/50005/os_notes/week4_solutions#will-petersons-work-in-modern-cpus-out-of-the-box).
+Most appropriate for single core systems. --> makes it unviable for modern computers because it does [not guarantee to work on modern computers](https://natalieagus.github.io/50005/os_notes/week4_solutions#will-petersons-work-in-modern-cpus-out-of-the-box) **because LD/ST may not be atomic**.
 
 ---
 
@@ -119,7 +123,7 @@ Most appropriate for single core systems. --> makes it unviable for modern compu
 - **CHECK** (using TAS and CAS) if the resource is being used by another process.
 - **TELL** the process that the resource is currently taken up/available.
 - The sad process may ==busy wait== until the resource is available.
-- Once the sad process and access the resource, the hardware (eg: memory) will make a note that the resource is being used --> locking the hardware out and repeating again.
+- Once the sad process can access the resource, the hardware (eg: memory) will make a note that the resource is being used --> locking the hardware out and repeating again.
 
 **==Details==**
 
@@ -152,33 +156,6 @@ There are two main ways to use semaphore:
 | Counting Semaphore                 | Can count from 0 to N (Integer)               |
 
 **==Semaphore does not completely eliminate busy waiting==**. There will be busy waiting in the [[Synchronization Problems in Computer Systems#^bbdac0|critical section]] of the semaphore - wait() and signal(). Since the busy waiting will be relatively shorter than constantly busy waiting with the other methods, the CPU resources can be saved! :D
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-#### More on Atomic Operations
-
-Atomic operations are usually implemented as specialized instructions inside the hardware of computer systems. (hard coded) **These operations cannot be interrupted and it's intermediary values cannot be observed.**
 
 ---
 
