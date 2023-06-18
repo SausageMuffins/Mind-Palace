@@ -183,4 +183,4 @@ After we have defined the docker file, we want to make sure we build our app ins
 ```bash
 docker build -t node-app:1.0 .
 docker run -d -p 3000:3000 node-app:1.0 # the 3000 depends on where your app host is at.
-```
+````

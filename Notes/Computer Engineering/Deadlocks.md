@@ -58,12 +58,12 @@ Main Idea: We constantly check if allocating that resource will end up in a dead
 **How does it work?**
 - Every resource request will need to provide more information -> eg: the maximum amount of resources needed (for each type) that it will need in the future as well.
 - An [[Deadlocks#Bankers Algorithm|avoidance algorithm]] is used to check the current resource allocation state to see if the above resource request will not lead to a deadlock state.
-- The above two procedure ensures a ==**safe state:**== A sequence of processes such that each process's requests will always be satisfied (*currently available resource + held resources by previous processes*) such that any preceding any following processes will finish their task.
+- The above two procedure ensures a **safe state:** A sequence of processes such that each process's requests will always be satisfied (*currently available resource + held resources by previous processes*) such that any preceding any following processes will finish their task.
 
 A system being in a safe state guarantees no deadlocks. The converse is true.
 
 
-##### Bankers Algorithm
+##### ==Bankers Algorithm==
 
 The bankers algorithm keeps in mind the main idea for avoiding a deadlock --> check and see if allocating the resource will enter a dead lock state.
 
@@ -74,15 +74,25 @@ The bankers algorithm keeps in mind the main idea for avoiding a deadlock --> ch
 | Allocation     | A matrix (nxm) that indicates the resources that are currently in use by each process. Each row is a process with columns as the type of resource         |
 |   Need             |    A matrix (nxm) that indicates the resources needed in the future.                                                                                                                                                       |
 
+Example:
+
+![[4.png]]
 
 
 
+
+
+
+---
 
 #### Detection and Recovery
 Main Idea: We allow deadlocks to occur but we constantly check for them. Once **detected**, we break them apart (**recovery**).
 
 
 
+
+
+---
 #### Prevention
 Main Idea: Impose conditions on all resource requests --> we ensure that we **never** enter a deadlock state --> this means we don't even need to check.
 

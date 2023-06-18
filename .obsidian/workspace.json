@@ -4,47 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "39c26afbeab55770",
+        "id": "9478555d3fcb67ce",
         "type": "tabs",
         "children": [
           {
-            "id": "4bd7b8bbe47bf27b",
+            "id": "c5d5e3bed4483499",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Machine Learning/Markov Decision Process.md",
+                "file": "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "604452d37fe9be41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Machine Learning/Optimization in Machine Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e287ba8b5551ffba",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Attachments/PDF Notes/ML Course Slides/08-RL-Slides.pdf"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Encapsu",
+                "query": "#DES",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +67,7 @@
             }
           },
           {
-            "id": "79c08247522f930c",
+            "id": "260e1aa898b241da",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -102,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291
+    "width": 242.50260543823242
   },
   "right": {
     "id": "35eb7310ba541277",
@@ -112,26 +88,6 @@
         "id": "9698d8b8097eaae4",
         "type": "tabs",
         "children": [
-          {
-            "id": "9adcf7cfdfcdb111",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Attachments/PDF Notes/ML Course Slides/08-RL-Slides.pdf"
-              }
-            }
-          },
-          {
-            "id": "17a5041ce0cca87a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf"
-              }
-            }
-          },
           {
             "id": "1d36afad1ef150f0",
             "type": "leaf",
@@ -144,20 +100,20 @@
             }
           },
           {
-            "id": "ce5c8cbd21346ed6",
+            "id": "c23bc999ea364a3f",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "calendar",
               "state": {}
             }
           },
           {
-            "id": "06d49cd134f74225",
+            "id": "55a475daa49aae74",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/PDF Notes/ML Course Slides/08-RL-Slides.pdf",
+                "file": "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,71 +123,74 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "5063cbfe547058f4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2) Data Driven World/week 2/Binary Heaps.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9adcf7cfdfcdb111",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f9148c3db099d88e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e15085ec3ca52a4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 305
+    "width": 223.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e287ba8b5551ffba",
+  "active": "c5d5e3bed4483499",
   "lastOpenFiles": [
-    "Notes/Machine Learning/Optimization in Machine Learning.md",
-    "Notes/Machine Learning/Markov Decision Process.md",
-    "Attachments/PDF Notes/ML Course Slides/08-RL-Slides.pdf",
-    "Notes/Reinforcement Learning.md",
-    "Attachments/PDF Notes/ML Course Notes/08-RL.pdf",
-    "MOCs/_020 Computer Engineering MOC.md",
-    "Notes/Computer Engineering/Deadlocks.md",
-    "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
-    "Notes/Computer Engineering/Multiprogramming and Time-sharing.md",
-    "MOCs/_010 Machine Learning MOC.md",
-    "Notes/Computer Engineering/Processes and Threads.md",
-    "Notes/Computer Engineering/Computer Systems.md",
-    "Notes/Machine Learning/K-Clustering.md",
-    "Notes/Machine Learning/Perceptron Algorithm.md",
-    "Attachments/PDF Notes/ML Course Slides/07-MDP-Slides.pdf",
-    "Notes/Meetings/Kick-Off Meeting with Prof Kenny.md",
-    "Attachments/38XJQZuS.svg",
     "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md",
-    "Attachments/PDF Notes/SE Course Notes/week 5/ce_5 (1).pdf",
-    "Attachments/Pasted image 20230613191423.png",
-    "Attachments/Pasted image 20230613191252.png",
-    "Attachments/PDF Notes/SE Course Notes/week 5/Week5B.pdf",
-    "Notes/Programming/JavaScript Cheatsheet.md",
-    "Attachments/PDF Notes/SE Course Notes/week 5/week5b_nodejs.pdf",
-    "Attachments/PDF Notes/SE Course Notes/week 5/week5a_web_prog_basics.pdf",
-    "Attachments/PDF Notes/SE Course Notes/week 5/Week5A.pdf",
-    "Attachments/PDF Notes/CSE Course Notes/ch7-2021-release.pdf",
-    "Attachments/PDF Notes/CSE Course Notes/ch6-2021-release.pdf",
-    "Attachments/3.png",
-    "Attachments/Pasted image 20230611214149.png",
-    "Attachments/Pasted image 20230610202940.png",
-    "Attachments/Pasted image 20230610202925.png",
-    "Notes/Machine Learning/Linear Regression.md",
-    "Notes/Machine Learning/Linear Classification.md",
-    "Attachments/PDF Notes/HASS Chinese Short Fiction/week 2/Screenshot 2023-05-22 001027.jpg",
-    "Attachments/PDF Notes/SE Course Notes/week 2/week 2 cohort-6.jpg",
-    "Attachments/PDF Notes/SE Course Notes/week 2/week 2 cohort-5.jpg",
-    "Papers/Real-Time System for Driver Fatigue Detection by RGB-D Camera.md",
-    "Papers/Driver Alertness Monitoring Using Fusion of Facial Features and Bio-Signals.md",
-    "Papers/A Smartphone-Based Drowsiness Detection and Warning System for Automotive Drivers.md",
-    "Notes/Machine Learning/Ridge Regression.md",
-    "MOCs/Chinese Short Fictions MOC.md",
-    "MOCs/_030 Software Engineering MOC.md",
-    "Notes/Software Engineering/Software Languages.md",
-    "Notes/Obsidian/MarkDown Cheat Sheet For Obsidian.md"
+    "3) Design Energy Systems/week 4/Exergy.md",
+    "1) Modelling Uncertainty/week 4/Bayes Theorem.md",
+    "2) Data Driven World/week 5/Breadth First Search.md",
+    "2) Data Driven World/week 5/Depth First Search.md",
+    "2) Data Driven World/week 5/Inheritance.md",
+    "2) Data Driven World/week 5/Graphs.md",
+    "1) Modelling Uncertainty/week 1/Probability and Statistics.md",
+    "1) Modelling Uncertainty/week 1/Summarizing Data.md",
+    "1) Modelling Uncertainty/week 2/Enumeration.md",
+    "1) Modelling Uncertainty/week 2/Linear Regression.md"
   ]
 }

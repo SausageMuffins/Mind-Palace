@@ -104,14 +104,15 @@ Note:
 #### Value Iteration
 1. Start with $V^*(s) =0$ for all states.
 2. Update $V^*_{i+1} \forall \ Vs.$
-	1. $V^*_{i+1} = max_a(T(s,a,s')[R(s,a,s') + \gamma V_i^*(s')]\ \forall a)$
+	1. $V^*_{i+1} = max_a\sum_{a}(T(s,a,s')[R(s,a,s') + \gamma V_i^*(s')])$
+	2. note that the sum here is to account for noise! 
 3. Repeat until convergence (guaranteed because of gamma)
 
 
 #### Q-Value Iteration
 1. Start with $Q_0^*(s,a) =0$ for all states and available actions.
 2. Update $Q^*_{i+1}$ for all Qs.
-	1. $Q^*_{i+1} = T(s,a,s')[R(s,a,s') + \gamma max_a(Q_i^*(s',a'))]\ \forall a$
+	1. $Q^*_{new} = \sum_{a}T(s,a,s')[R(s,a,s') + \gamma V^*(s')]\ \forall a$
 3. Repeat until convergence (guaranteed because of gamma)
 
 

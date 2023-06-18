@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "d340f37c193932b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "41b3af75041ffd5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ce2e0b11c9d9243",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/PDF Notes/SE Course Notes/week 5/ce_5 (1).pdf"
+              }
+            }
+          },
+          {
+            "id": "141f249b34cf3922",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/PDF Notes/SE Course Notes/week 5/week5b/Week5B.pdf"
+              }
+            }
+          },
+          {
+            "id": "70b3f2c81d4c3ccf",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/PDF Notes/SE Course Notes/week 5/week5b/week5b_nodejs.pdf"
+              }
+            }
+          },
+          {
+            "id": "4c76f4fdfd2819b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "13a9ec50ccc19f43",
+    "type": "split",
+    "children": [
+      {
+        "id": "98f32d27d0dbed5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "524af9f095eff6d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ab17ea126a26a2d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Encapsu",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c66fbe022d4783d3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "79c08247522f930c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 284.5026054382324
+  },
+  "right": {
+    "id": "35eb7310ba541277",
+    "type": "split",
+    "children": [
+      {
+        "id": "9698d8b8097eaae4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9adcf7cfdfcdb111",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md"
+              }
+            }
+          },
+          {
+            "id": "17a5041ce0cca87a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf"
+              }
+            }
+          },
+          {
+            "id": "1d36afad1ef150f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ce5c8cbd21346ed6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "06d49cd134f74225",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 246,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "4c76f4fdfd2819b2",
+  "lastOpenFiles": [
+    "Attachments/PDF Notes/SE Course Notes/week 5/ce_5 (1).pdf",
+    "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md",
+    "Attachments/Pasted image 20230618175602.png",
+    "Attachments/Pasted image 20230618175514.png",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5b/week5b_nodejs.pdf",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5b/Week5B.pdf",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/week5c_expressjs.pdf",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5a/week5a_web_prog_basics.pdf",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/Week5C.pdf",
+    "MOCs/_030 Software Engineering MOC.md",
+    "MOCs/_020 Computer Engineering MOC.md",
+    "MOCs/_010 Machine Learning MOC.md",
+    "Notes/Machine Learning/Optimization in Machine Learning.md",
+    "Notes/Machine Learning/Markov Decision Process.md",
+    "Attachments/PDF Notes/ML Course Slides/07-MDP-Slides.pdf",
+    "Attachments/PDF Notes/PDF Notes.lnk",
+    "Attachments/PDF Notes/New shortcut.lnk",
+    "Attachments/PDF Notes/SE Course Notes/week 2/week 2 cohort-5.jpg",
+    "Notes/Computer Engineering/Deadlocks.md",
+    "Attachments/4.png",
+    "Notes/Interests/Docker Cheatsheet.md",
+    "Notes/Programming/JavaScript Cheatsheet.md",
+    "Notes/api.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/express/node_modules/on-finished/package.json",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/smart-buffer/docs/ROADMAP.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/smart-buffer/docs/CHANGELOG.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/smart-buffer/README.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/whatwg-url/README.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/qs/README.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/qs/CHANGELOG.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/qs/LICENSE.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/get-intrinsic/README.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/get-intrinsic/CHANGELOG.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/fresh/README.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/fresh/HISTORY.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/async/README.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/async/CHANGELOG.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/color-name/README.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5c/my_mongo_app/node_modules/iconv-lite/README.md",
+    "Attachments/PDF Notes/SE Course Notes/week 5/week5b/apitest/node_modules/xhr2/test/fixtures/xhr2.png",
+    "Attachments/38XJQZuS.svg",
+    "Attachments/Pasted image 20230613191423.png",
+    "Attachments/Pasted image 20230613191252.png",
+    "Attachments/3.png",
+    "Attachments/Pasted image 20230611214149.png"
+  ]
+}

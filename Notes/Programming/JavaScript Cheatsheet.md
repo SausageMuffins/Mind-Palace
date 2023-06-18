@@ -5,6 +5,22 @@ type: Overview
 summary: 
 ---
 
+## Terminology
+
+1. **Callbacks**: functions that are executed after its parent function (usually an asynchronous operation) has completed. ==Callbacks **associated with asynchronous operations** are added to the macro queue whereas callbacks associated with promises are added to micro queue.
+
+2. **Callback Registry**: The place where callbacks are stored. When an event happens (like a user clicking a button), the corresponding callback (function) is looked up in the registry and then invoked.
+
+3. **Frames**: refer to a stack frame which is used to manage function calls and execution context.
+
+4. **Micro and Macro Task Queues**: these are simply queues of tasks to be completed by the computer system. Micro task queue adds promises whereas macro queues adds functions to the queue. ==Micro tasks go first==
+
+5. **Event Loop**: constantly check for tasks in both the micro and macro queues to execute --> prioritizing micro tasks first to ensure promises are fulfilled first. 
+
+6. **API:** stands for [[System Calls#System Calls via API|application programming interface]] and it simply defines the "contract" (rules and protocols for data types, methods etc) for working with another software application.
+
+
+---
 ## Basics
 
 ### Variables

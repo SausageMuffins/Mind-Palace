@@ -1,0 +1,15 @@
+{
+  "args": {
+    "x": "abc"
+  },
+  "headers": {
+    "x-forwarded-proto": "https",
+    "x-forwarded-port": "443",
+    "host": "postman-echo.com",
+    "x-amzn-trace-id": "Root=1-6461cea4-7ad3800974eb5dc7518c5138",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate, br",
+    "user-agent": "node-fetch"
+  },
+  "url": "https://postman-echo.com/get?x=abc"
+}

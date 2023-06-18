@@ -1,0 +1,16 @@
+p {
+    margin:10px;
+}
+
+#msg1 {
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.heading {
+    font-size:larger;
+}
+
+p.message {
+    margin:5px;
+}

@@ -26,10 +26,10 @@ Useful Terms for MDP:
 
 | Terms       | Description                         |
 | ----------- | ----------------------------------- |
-| s           | a set of states                     |
-| a           | a set of actions                    |
+| s           | a state                    |
+| a           | an action                  |
 | T(s, a, s') | a transition function = P(s'\|s, a) |
-| R(s, a, s') | a reward function                   |
+| R(s, a, s') | a reward function: immediate rewards for **moving** from s to s' - can be the value of the grid s'                  |
 | $\gamma$            |a discount factor for rewards -> make sure our process is time bounded                                     |
 
 
@@ -47,14 +47,18 @@ When we find the optimal policy, the Optimal value and Optimal Q-Function will n
 The optimal "strategy" or **mapping** of what actions to take at each state such that we reach the optimal value (highest reward). Think dictionary.
 
 #### Optimal Value $(V^*(s))$
-The cumulative highest reward of the current state only.
+The long term expected utility of state s. This "long term utility" is an estimate! It's not the same as the immediate reward.
 
-#### Optimal Q-Function$(Q^*(s,a))$
-The expected best reward if we were to take an action a at any particular state s using the optimal policy. This means the best cumulative (expected) rewards of both the current state + the reward of the next (possible) states following the optimal policy.
+#### Optimal Q-value $(Q^*(s,a))$
+The immediate reward of moving to the next state R(s,a,s') + the optimal value of the next state s'. There can be multiple Q values because of the different possible action an agent can take at state s, but the optimal Q value is one that follows the optimal policy. 
+
+In other words, the optimal Q value is also the best long term expected reward for taking an action a.
 
 ---
 
 ## Arriving at End-Goal
+
+**Main Idea:** Guess and check on the same spot until we get an optimal value. That is, we pretend to take every single possible action and see if taking that action improves my current optimal values (v and q). This will naturally impact our optimal policy after v and q converges.
 
 There are three main ways to arrive at our end goal --> getting optimal policy, values and Q-values.
 ![[Optimization in Machine Learning#Markov Decision Process]]
@@ -63,15 +67,15 @@ There are three main ways to arrive at our end goal --> getting optimal policy, 
 **==Explanation:==**
 We need to first define our Optimal Q-Function $Q^*(s,a)$ mathematically. Keep in mind that our $Q^*(s,a)$  is the best cumulative reward if we take that particular action.
 
-#### Value Iteration (More of a Top-Down Approach)
+#### Value Iteration (DP Approach)
 
 ![[38XJQZuS.svg]]
 
 Key Idea: 
 
 1. Identify all the possible actions
-2. Determine the Optimal value for that next state s' if we take that action from s (this is possibly where the recursion takes place - DP: Bottom up/Top down)
-3. Use that optimal value to calculate Q(s',a) for all the actions
+2. Update my new optimal value for state s by calculating all new values if we take an action from my current state (formula). **may need to account for noise (moving left or right)**
+3. Use that new optimal value to calculate Q(s',a) for all the actions.
 4. Take the largest Q to be the optimal value for the CURRENT state s.
 
 Step 3:
@@ -95,20 +99,21 @@ $$\pi ^*(s) = arg\ max_aQ^*(s,a)$$
 
 ---
 
-#### Q-Value Iteration (More of a Bottom-up Approach)
-We have seen from the value iteration that getting the optimal policy and optimal value seems to rely on the Optimal Q-value. This begs the question: *Can we just directly calculate optimal Q-Value?*
+#### Q-Value Iteration (DP Approach)
+
+Main Idea: we guess and check by moving in all possible direction from state s and update my current Q value with the largest Q value that I get from each action.
 
 We simply just substitute $V^*(s)$ into the optimal Q-Value equation.
 
-$$Q^*(s,a) = T(s,a,s')[R(s, a, s') + \gamma max_a(Q^*(s',a')]\ \forall a\ from\ s$$
+$$Q^*(s,a) = \sum_{a'}T(s,a,s')[R(s, a, s') + \gamma max_a(Q^*(s',a')]\ $$
 
-We end up deriving the update equation for the next Q-value:
+We end up deriving the update equation for the Q-value of the current state:
 
-$$Q^*_{i+1} = T(s,a,s')[R(s,a,s') + \gamma max_a(Q_i^*(s',a'))]\ \forall a$$
+$$Q^*_{i+1}(s,a) = \sum_{a'}T(s,a,s')[R(s,a,s') + \gamma max_a(Q_i^*(s',a'))]$$
 
-The i+1 in this case can be interpreted as moving backwards to the start even though it's +1. Might be a bit confusing but the +1 is simply to show that we are updating the next Q value.
+The i in this case represents the iteration --> each iteration is supposed to dive 1 layer deeper.
 
-Naturally, we can obtain the optimal value from after we get the optimal Q-values.
+Naturally, we can obtain the optimal value from best action with the optimal Q-values.
 
 $$\pi ^*(s) = arg\ max_aQ^*(s,a)$$
 
@@ -130,27 +135,44 @@ Under some conditions, policy iteration can actually converge much faster!
 
 ---
 
-#### Q-Learning
+### Q-Learning
 
-Iteratively getting the Q-value can be super inefficient (high time and space complexity) and the agent may not always be able to fully interact with the environment. Hence, we need a more realistic method that can help the agent learn the environment as it goes and estimate the optimal policy.
-
-We can do this by **==looking one step ahead and updating our current estimate with a new estimate.==**
+The main difference between Q-value iteration an Q-learning is that **learning does not have the assumption of knowing the transition probabilities and rewards.** This makes Q-learning much more applicable to real life scenarios as we often do not know the rewards + transition probabilities. 
 
 This method is follows the main principle of [[Optimization in Machine Learning]]: minimize loss by moving in the opposite direction of the gradient.
 
-In this context the loss function is:  **Temporal Difference Error**
+#### Temporal Difference Error (TDE)
 
-TDE is basically finding the difference between the new estimate (by looking one action ahead) and the current estimate. Because we have a new observation (reward of the next state) the new estimate should be a more accurate/closer to the actual optimal Q-value for state s.
+**TDE main idea:** Keep interacting with the environment and getting more samples (information) about the transition probability and rewards. Using these samples, we calculate a loss against our current estimate!
 
-$$TD\ Error = new\ Q\ estimate - old\ Q\ estimate$$
-$$TD\ Error = [R(s,a,s') + \gamma \ max_{a'}Q_{old}(s',a')] - Q_{old}(s,a)$$
+##### TDE Thought Process:
+
+1. We start off with a new sample from interacting with the environment. In doing so, we gained new information the immediate reward for following policy $\pi$.
+
+$$sample = R(s,\pi(s),s') + \gamma \ V_i^\pi(s)$$
+
+2. We calculate the error. Think: I have new information at my current time step. Hence, I can have a better estimate now.
+
+$$TDE = sample - V^\pi(s)$$
+
+3. Let's say I want to update my new estimate. Then I would have to "correct the error" incrementally (implies a learning rate).
+
+$$V^\pi(s)= V^\pi(s) + \alpha\ (sample - V^\pi(s))$$
+
+We can see that this makes sense because if our alpha = 1, then we are completely wiping our previous knowledge ($V^\pi(s)$) and replacing it with our new found information (sample).
+
+==The issue here is that we assume that each sample is representative of the environment.==
+
+Finally, we arrive at our Q-learning equation: we really just replaced the optimal value with the optimal "next step value" that is my Q-value.
+
+$$sample = R(s,a,s') + \gamma \ max_a'Q^*(s',a')$$
+
+$$TD\ Error = [R(s,a,s') + \gamma \ max_{a'}Q_{old}(s',a')] - Q(s,a)$$
 
 After we found the "loss", we want to move in the opposite direction to minimize this loss.
 
-$$Q_{new}(s,a) = Q_{old}(s,a) - \alpha \ TD\ Error$$
+$$Q_{new}(s,a) = Q_{old}(s,a) + \alpha \ TD\ Error$$
 
-Expanding the formula for TD error, we get:
+Alternative form: just expand the equation and group Q old together.
 
 $$Q_{new}(s,a) = (1-\alpha)Q_{old}(s,a) - \alpha[R(s,a,s') + \gamma \ max_{a'}Q(s',a')]$$
-
-where $\alpha$ is the learning rate!
