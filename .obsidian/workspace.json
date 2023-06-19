@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Computer Engineering/Deadlocks.md",
+                "file": "Notes/Computer Engineering/Processes and Threads.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Computer Engineering/Deadlocks.md",
+                "file": "Notes/Computer Engineering/Processes and Threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Computer Engineering/Deadlocks.md"
+                "file": "Notes/Computer Engineering/Processes and Threads.md"
               }
             }
           }
@@ -182,11 +182,12 @@
   },
   "active": "6ceab692f6259966",
   "lastOpenFiles": [
-    "MOCs/_020 Computer Engineering MOC.md",
     "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
-    "Notes/Computer Engineering/Deadlocks.md",
-    "MOCs/Computer Vision MOC.md",
     "Notes/Computer Engineering/Processes and Threads.md",
+    "Notes/Computer Engineering/Deadlocks.md",
+    "Attachments/PDF Notes/CSE Course Notes/ch6-2021-release.pdf",
+    "MOCs/_020 Computer Engineering MOC.md",
+    "MOCs/Computer Vision MOC.md",
     "Notes/Computer Engineering/System Calls.md",
     "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md",
     "3) Design Energy Systems/week 4/Exergy.md",
