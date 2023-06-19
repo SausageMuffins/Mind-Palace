@@ -19,8 +19,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5bb6b27cdf61ec77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOCs/_020 Computer Engineering MOC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ceab692f6259966",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Computer Engineering/Deadlocks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
+                "file": "Notes/Computer Engineering/Deadlocks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md"
+                "file": "Notes/Computer Engineering/Deadlocks.md"
               }
             }
           }
@@ -153,9 +180,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "044604ea4a6bce72",
+  "active": "6ceab692f6259966",
   "lastOpenFiles": [
     "MOCs/_020 Computer Engineering MOC.md",
+    "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
     "Notes/Computer Engineering/Deadlocks.md",
     "MOCs/Computer Vision MOC.md",
     "Notes/Computer Engineering/Processes and Threads.md",
