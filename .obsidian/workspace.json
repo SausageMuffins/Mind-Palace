@@ -37,12 +37,19 @@
             "id": "6ceab692f6259966",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Notes/Computer Engineering/Processes and Threads.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Attachments/PDF Notes/ML Course Slides/05-KMeans-Slides.pdf"
+              }
+            }
+          },
+          {
+            "id": "05d1e8b3fbeeed04",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/PDF Notes/ML Course Notes/06-KMedoids.pdf"
               }
             }
           }
@@ -140,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Computer Engineering/Processes and Threads.md",
+                "file": "Attachments/PDF Notes/ML Course Slides/05-KMeans-Slides.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Computer Engineering/Processes and Threads.md"
+                "file": "Attachments/PDF Notes/ML Course Slides/05-KMeans-Slides.pdf"
               }
             }
           }
@@ -182,8 +189,10 @@
   },
   "active": "6ceab692f6259966",
   "lastOpenFiles": [
-    "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
+    "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf",
+    "Attachments/PDF Notes/ML Course Notes/06-KMedoids.pdf",
     "Notes/Computer Engineering/Processes and Threads.md",
+    "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
     "Notes/Computer Engineering/Deadlocks.md",
     "Attachments/PDF Notes/CSE Course Notes/ch6-2021-release.pdf",
     "MOCs/_020 Computer Engineering MOC.md",
