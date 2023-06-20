@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5bb6b27cdf61ec77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOCs/_020 Computer Engineering MOC.md",
+                "file": "Notes/Machine Learning/K-Clustering.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +26,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Attachments/PDF Notes/ML Course Slides/05-KMeans-Slides.pdf"
+                "file": "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf"
               }
             }
           },
@@ -53,8 +40,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -147,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/PDF Notes/ML Course Slides/05-KMeans-Slides.pdf",
+                "file": "Notes/Machine Learning/K-Clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/PDF Notes/ML Course Slides/05-KMeans-Slides.pdf"
+                "file": "Notes/Machine Learning/K-Clustering.md"
               }
             }
           }
@@ -187,15 +173,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6ceab692f6259966",
+  "active": "044604ea4a6bce72",
   "lastOpenFiles": [
     "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf",
+    "Notes/Machine Learning/K-Clustering.md",
+    "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
+    "MOCs/_020 Computer Engineering MOC.md",
+    "Attachments/PDF Notes/ML Course Slides/05-KMeans-Slides.pdf",
     "Attachments/PDF Notes/ML Course Notes/06-KMedoids.pdf",
     "Notes/Computer Engineering/Processes and Threads.md",
-    "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
     "Notes/Computer Engineering/Deadlocks.md",
     "Attachments/PDF Notes/CSE Course Notes/ch6-2021-release.pdf",
-    "MOCs/_020 Computer Engineering MOC.md",
     "MOCs/Computer Vision MOC.md",
     "Notes/Computer Engineering/System Calls.md",
     "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md",
