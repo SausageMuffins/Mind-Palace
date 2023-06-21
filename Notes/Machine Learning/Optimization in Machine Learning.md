@@ -112,7 +112,7 @@ Note:
 #### Q-Value Iteration
 1. Start with $Q_0^*(s,a) =0$ for all states and available actions.
 2. Update $Q^*_{i+1}$ for all Qs.
-	1. $Q^*_{new} = \sum_{a}T(s,a,s')[R(s,a,s') + \gamma V^*(s')]\ \forall a$
+	1. $Q^*_{i+1} = T(s,a,s')[R(s,a,s') + \gamma V^*(s')]\ \forall s'$
 3. Repeat until convergence (guaranteed because of gamma)
 
 

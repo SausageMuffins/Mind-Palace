@@ -80,7 +80,7 @@ Key Idea:
 
 Step 3:
 
-$$Q^*(s,a) = T(s,a,s')[R(s, a, s') + \gamma V^*(s')]\ \forall a\ from\ s$$
+$$Q^*(s,a) = T(s,a,s')[R(s, a, s') + \gamma V^*(s')]\ \forall s'\ from\ s$$
 
 Step 4: Take the largest Q value (largest expected reward if we were to take that action) to be the optimal value for the current state.
 $$V^*(s) = max_a(Q^*(s,a))$$

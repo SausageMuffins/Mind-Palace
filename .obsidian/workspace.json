@@ -11,12 +11,45 @@
             "id": "044604ea4a6bce72",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/PDF Notes/ML Course Notes/08-RL.pdf"
+              }
+            }
+          },
+          {
+            "id": "e10897d54a98d568",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Notes/Machine Learning/Markov Decision Process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "d967231887fc23d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Machine Learning/Optimization in Machine Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "878a3e9a5bd8d71c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/PDF Notes/ML Course Notes/08-RL.pdf"
               }
             }
           }
@@ -113,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Machine Learning/Markov Decision Process.md",
+                "file": "Attachments/PDF Notes/ML Course Notes/08-RL.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Machine Learning/Markov Decision Process.md"
+                "file": "Attachments/PDF Notes/ML Course Notes/08-RL.pdf"
               }
             }
           }
@@ -153,8 +186,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "524af9f095eff6d2",
+  "active": "044604ea4a6bce72",
   "lastOpenFiles": [
+    "Notes/Machine Learning/Optimization in Machine Learning.md",
     "Notes/Machine Learning/Markov Decision Process.md",
     "Attachments/PDF Notes/ML Course Notes/08-RL.pdf",
     "Attachments/PDF Notes/ML Course Notes/07-MDP.pdf",
