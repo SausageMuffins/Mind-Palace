@@ -13,30 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Machine Learning/K-Clustering.md",
+                "file": "Notes/Machine Learning/Markov Decision Process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "6ceab692f6259966",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf"
-              }
-            }
-          },
-          {
-            "id": "05d1e8b3fbeeed04",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Attachments/PDF Notes/ML Course Notes/06-KMedoids.pdf"
               }
             }
           }
@@ -98,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232
+    "width": 260.5026054382324
   },
   "right": {
     "id": "35eb7310ba541277",
@@ -133,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Machine Learning/K-Clustering.md",
+                "file": "Notes/Machine Learning/Markov Decision Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Machine Learning/K-Clustering.md"
+                "file": "Notes/Machine Learning/Markov Decision Process.md"
               }
             }
           }
@@ -159,7 +139,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254
+    "width": 254,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,12 +156,15 @@
   },
   "active": "044604ea4a6bce72",
   "lastOpenFiles": [
-    "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf",
+    "Attachments/PDF Notes/ML Course Notes/08-RL.pdf",
+    "Notes/Machine Learning/Markov Decision Process.md",
+    "Attachments/PDF Notes/ML Course Notes/07-MDP.pdf",
+    "Attachments/PDF Notes/ML Course Notes/06-KMedoids.pdf",
     "Notes/Machine Learning/K-Clustering.md",
+    "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf",
+    "Attachments/PDF Notes/ML Course Slides/05-KMeans-Slides.pdf",
     "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
     "MOCs/_020 Computer Engineering MOC.md",
-    "Attachments/PDF Notes/ML Course Slides/05-KMeans-Slides.pdf",
-    "Attachments/PDF Notes/ML Course Notes/06-KMedoids.pdf",
     "Notes/Computer Engineering/Processes and Threads.md",
     "Notes/Computer Engineering/Deadlocks.md",
     "Attachments/PDF Notes/CSE Course Notes/ch6-2021-release.pdf",
