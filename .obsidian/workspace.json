@@ -139,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254,
-    "collapsed": true
+    "width": 254
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,10 +153,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "044604ea4a6bce72",
+  "active": "524af9f095eff6d2",
   "lastOpenFiles": [
-    "Attachments/PDF Notes/ML Course Notes/08-RL.pdf",
     "Notes/Machine Learning/Markov Decision Process.md",
+    "Attachments/PDF Notes/ML Course Notes/08-RL.pdf",
     "Attachments/PDF Notes/ML Course Notes/07-MDP.pdf",
     "Attachments/PDF Notes/ML Course Notes/06-KMedoids.pdf",
     "Notes/Machine Learning/K-Clustering.md",
