@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Support Vector Machines.md",
+                "file": "Notes/Machine Learning/Support Vector Machines.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -45,8 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "668fbb0813149dcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/File Systems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -140,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Support Vector Machines.md",
+                "file": "Notes/File Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Support Vector Machines.md"
+                "file": "Notes/File Systems.md"
               }
             }
           }
@@ -166,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254,
-    "collapsed": true
+    "width": 254
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,15 +194,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2e454a11de929747",
+  "active": "668fbb0813149dcc",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20230622123235.png",
+    "Attachments/4 1.png",
+    "Attachments/Pasted image 20230622141425.png",
+    "Attachments/Pasted image 20230622141343.png",
     "Notes/Machine Learning/Optimization in Machine Learning.md",
-    "Notes/Support Vector Machines.md",
+    "Attachments/PDF Notes/CSE Course Notes/ch10-2021-release.pdf",
+    "Notes/File Systems.md",
+    "Notes/Computer Engineering/Deadlocks.md",
+    "Notes/Machine Learning/Support Vector Machines.md",
+    "Attachments/Pasted image 20230622123235.png",
     "Notes/Machine Learning/Linear Classification.md",
     "Notes/Machine Learning/Markov Decision Process.md",
     "Notes/Interests/Docker Cheatsheet.md",
-    "Notes/Untitled.md",
     "Attachments/PDF Notes/ML Course Notes/08-RL.pdf",
     "Attachments/PDF Notes/ML Course Notes/07-MDP.pdf",
     "Attachments/PDF Notes/ML Course Notes/06-KMedoids.pdf",
@@ -199,7 +217,6 @@
     "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
     "MOCs/_020 Computer Engineering MOC.md",
     "Notes/Computer Engineering/Processes and Threads.md",
-    "Notes/Computer Engineering/Deadlocks.md",
     "Attachments/PDF Notes/CSE Course Notes/ch6-2021-release.pdf",
     "MOCs/Computer Vision MOC.md",
     "Notes/Computer Engineering/System Calls.md",
