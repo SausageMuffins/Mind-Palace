@@ -125,3 +125,11 @@ $$\pi_{i+1} = argmax_a(T(s,a,s')[R(s,a,s')+ \gamma V^{\pi_i}(s'))$$
 
 
 #### Q-Learning
+1. Collect a sample with it's immediate reward $R(s,a,s')$
+2. Update Q-value according to this new sample
+
+$$Q_{new}(s,a) = (1-\alpha)Q_{old}(s,a) + \alpha[R(s,a,s') + \gamma \ max_{a'}Q_{old}(s',a')]$$
+$$||$$
+$$Q_{new}(s,a) = Q_{old}(s,a) + \alpha[R(s,a,s') + \gamma \ max_{a'}Q_{old}(s',a') - Q_{old}(s,a)]$$
+
+A good thing to note here that $[R(s,a,s') + \gamma \ max_{a'}Q(s',a') - Q(s,a)]$ is also known as the [[Markov Decision Process#Temporal Difference Error (TDE)|temporal difference error]] or simply another "loss function".

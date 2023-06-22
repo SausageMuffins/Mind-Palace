@@ -8,17 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "044604ea4a6bce72",
+            "id": "d967231887fc23d0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Attachments/PDF Notes/ML Course Notes/08-RL.pdf"
+                "file": "Notes/Interests/Docker Cheatsheet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
           {
-            "id": "e10897d54a98d568",
+            "id": "87a7560e4cec9b5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,29 +30,6 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "d967231887fc23d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Machine Learning/Optimization in Machine Learning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "878a3e9a5bd8d71c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Attachments/PDF Notes/ML Course Notes/08-RL.pdf"
               }
             }
           }
@@ -111,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5026054382324
+    "width": 260.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "35eb7310ba541277",
@@ -146,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/PDF Notes/ML Course Notes/08-RL.pdf",
+                "file": "Notes/Interests/Docker Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/PDF Notes/ML Course Notes/08-RL.pdf"
+                "file": "Notes/Interests/Docker Cheatsheet.md"
               }
             }
           }
@@ -172,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254
+    "width": 254,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,10 +168,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "044604ea4a6bce72",
+  "active": "d967231887fc23d0",
   "lastOpenFiles": [
     "Notes/Machine Learning/Optimization in Machine Learning.md",
     "Notes/Machine Learning/Markov Decision Process.md",
+    "Notes/Untitled.md",
     "Attachments/PDF Notes/ML Course Notes/08-RL.pdf",
     "Attachments/PDF Notes/ML Course Notes/07-MDP.pdf",
     "Attachments/PDF Notes/ML Course Notes/06-KMedoids.pdf",
