@@ -43,9 +43,9 @@ We can see treat the theta as a normal vector from the line (the direction is wh
 
 ![[Pasted image 20230521161907.png]]
 
-This predicted +1 or -1 from the classifier (h) is compared with the actual value y to **obtain the percentage of error ($\varepsilon$).**
+This predicted +1 or -1 from the classifier (h) is compared with the actual value y to **obtain the percentage of error ($\varepsilon$).** ^6c31fa
 
-$$\varepsilon_n(\theta) = \frac{1}{n}\sum_{t=1}^{n}[[y(t) \ne h(x^{(t)};\theta)]] = \frac{1}{n}\sum_{t=1}^{n}[[y(t)(\theta \cdot x^{(t)}\le 0)]]$$
+$$\varepsilon_n(\theta) = \frac{1}{n}\sum_{t=1}^{n}[[y(t) \ne h(x^{(t)};\theta)]] = \frac{1}{n}\sum_{t=1}^{n}[[y(t)(\theta \cdot x^{(t)}\le 0)]]$$ ^648af7
 
 *Note: The error function square brackets work by returning 1 if the condition is true. 0 otherwise.* The square brackets in the error function context checks if the predicted value is wrong.
 

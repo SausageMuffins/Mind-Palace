@@ -44,6 +44,18 @@ The loss functions can come in many forms but the main objective is the same: ==
 
 Note: $n_k = 1/k$ where k can be the number of iterations. (depends on context)
 
+
+
+## [[Support Vector Machines]]
+
+
+
+
+
+
+
+
+
 ---
 
 ## [[Linear Regression]]
