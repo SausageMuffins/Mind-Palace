@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Machine Learning/Support Vector Machines.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83296bbded6d23c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Machine Learning/Linear Classification.md",
+                "file": "Notes/Machine Learning/Optimization in Machine Learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,20 +34,39 @@
             }
           },
           {
-            "id": "668fbb0813149dcc",
+            "id": "2f1ba1ba1f407f0e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/PDF Notes/ML Course Notes/10-SVM2.pdf"
+              }
+            }
+          },
+          {
+            "id": "c6f77a968e14ded2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/PDF Notes/ML Course Notes/09-SVM.pdf"
+              }
+            }
+          },
+          {
+            "id": "54c38d5a833298bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/File Systems.md",
+                "file": "Notes/Machine Learning/Linear Classification.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/File Systems.md",
+                "file": "Notes/Machine Learning/Optimization in Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/File Systems.md"
+                "file": "Notes/Machine Learning/Optimization in Machine Learning.md"
               }
             }
           }
@@ -180,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254
+    "width": 254,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,18 +201,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "668fbb0813149dcc",
+  "active": "2e454a11de929747",
   "lastOpenFiles": [
+    "Notes/Machine Learning/Support Vector Machines.md",
+    "Notes/Machine Learning/Linear Classification.md",
+    "Attachments/PDF Notes/ML Course Notes/09-SVM.pdf",
+    "Attachments/PDF Notes/ML Course Notes/10-SVM2.pdf",
+    "Notes/Machine Learning/Linear Regression.md",
+    "Notes/Machine Learning/Optimization in Machine Learning.md",
+    "Notes/File Systems.md",
     "Attachments/4 1.png",
     "Attachments/Pasted image 20230622141425.png",
     "Attachments/Pasted image 20230622141343.png",
-    "Notes/Machine Learning/Optimization in Machine Learning.md",
     "Attachments/PDF Notes/CSE Course Notes/ch10-2021-release.pdf",
-    "Notes/File Systems.md",
     "Notes/Computer Engineering/Deadlocks.md",
-    "Notes/Machine Learning/Support Vector Machines.md",
     "Attachments/Pasted image 20230622123235.png",
-    "Notes/Machine Learning/Linear Classification.md",
     "Notes/Machine Learning/Markov Decision Process.md",
     "Notes/Interests/Docker Cheatsheet.md",
     "Attachments/PDF Notes/ML Course Notes/08-RL.pdf",
