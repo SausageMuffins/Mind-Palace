@@ -32,7 +32,7 @@ The loss functions can come in many forms but the main objective is the same: ==
 
 #### Stochastic Algorithm
 
-**We can make use of the hinge loss function**
+**We can make use of the hinge loss function** ^7abcf5
 
 1. Initialize the weights - $\theta, \theta_0 = 0$
 2. Randomly select a data point.
