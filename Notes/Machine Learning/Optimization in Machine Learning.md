@@ -66,7 +66,7 @@ Note: $n_k = 1/k$ where k can be the number of iterations. (depends on context)
 2. Randomly select a data point.
 3. Compute $f(x; \theta,\theta_0)$.
 4. Update
-	1. $\theta^{(k+1)} = \theta_0^{(k+1)} + n_k(y^{(t)} - f(x^{(t)};\theta,\theta_0))x^{(t)}$
+	1. $\theta^{(k+1)} = \theta^{(k)} + n_k(y^{(t)} - (\theta \cdot x^{(t)}+\theta_0))x^{(t)}$
 5. Repeat steps 2 to 4 until iterations are met.
 
 Note:
