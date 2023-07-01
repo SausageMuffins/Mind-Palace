@@ -19,19 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "90990dda8a407ba6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf",
+                "file": "Notes/Machine Learning/Linear Classification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf"
+                "file": "Notes/Machine Learning/Linear Classification.md"
               }
             }
           }
@@ -165,8 +154,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "90990dda8a407ba6",
+  "active": "a17cd5b360ed7ac5",
   "lastOpenFiles": [
+    "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf",
     "Notes/Machine Learning/Ridge Regression.md",
     "Notes/Machine Learning/Linear Classification.md",
     "Notes/Machine Learning/Optimization in Machine Learning.md",
@@ -189,7 +179,6 @@
     "Attachments/PDF Notes/ML Course Notes/07-MDP.pdf",
     "Attachments/PDF Notes/ML Course Notes/06-KMedoids.pdf",
     "Notes/Machine Learning/K-Clustering.md",
-    "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf",
     "Attachments/PDF Notes/ML Course Slides/05-KMeans-Slides.pdf",
     "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
     "MOCs/_020 Computer Engineering MOC.md",
@@ -205,7 +194,6 @@
     "2) Data Driven World/week 5/Inheritance.md",
     "2) Data Driven World/week 5/Graphs.md",
     "1) Modelling Uncertainty/week 1/Probability and Statistics.md",
-    "1) Modelling Uncertainty/week 1/Summarizing Data.md",
-    "1) Modelling Uncertainty/week 2/Enumeration.md"
+    "1) Modelling Uncertainty/week 1/Summarizing Data.md"
   ]
 }
