@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Machine Learning/Support Vector Machines.md",
+                "file": "Notes/Meetings/Kick-Off Meeting with Prof Kenny.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Machine Learning/Support Vector Machines.md",
+                "file": "Notes/Meetings/Kick-Off Meeting with Prof Kenny.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Machine Learning/Support Vector Machines.md"
+                "file": "Notes/Meetings/Kick-Off Meeting with Prof Kenny.md"
               }
             }
           }
@@ -155,6 +155,7 @@
   },
   "active": "a17cd5b360ed7ac5",
   "lastOpenFiles": [
+    "Notes/Machine Learning/Support Vector Machines.md",
     "Notes/Machine Learning/Markov Decision Process.md",
     "Notes/Machine Learning/Optimization in Machine Learning.md",
     "MOCs/_010 Machine Learning MOC.md",
@@ -162,7 +163,6 @@
     "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf",
     "Notes/Machine Learning/Ridge Regression.md",
     "Notes/Meetings/Kick-Off Meeting with Prof Kenny.md",
-    "Notes/Machine Learning/Support Vector Machines.md",
     "Attachments/Pasted image 20230626223636.png",
     "Attachments/PDF Notes/ML Course Notes/10-SVM2.pdf",
     "Attachments/PDF Notes/ML Course Notes/09-SVM.pdf",
