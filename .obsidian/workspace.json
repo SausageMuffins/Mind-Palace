@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Meetings/Kick-Off Meeting with Prof Kenny.md",
+                "file": "Notes/Software Engineering/Software Development Process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Meetings/Kick-Off Meeting with Prof Kenny.md",
+                "file": "Notes/Software Engineering/Software Development Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Meetings/Kick-Off Meeting with Prof Kenny.md"
+                "file": "Notes/Software Engineering/Software Development Process.md"
               }
             }
           }
@@ -155,25 +155,33 @@
   },
   "active": "a17cd5b360ed7ac5",
   "lastOpenFiles": [
+    "MOCs/_030 Software Engineering MOC.md",
+    "Notes/File Systems.md",
+    "Attachments/24.png",
+    "Attachments/23.png",
+    "Attachments/22.png",
+    "Attachments/9 1.png",
+    "Attachments/8 1.png",
+    "Attachments/7 1.png",
+    "Notes/Untitled.md",
+    "Attachments/7.png",
+    "Attachments/2023-06-02-21-47-40.png",
+    "MOCs/_020 Computer Engineering MOC.md",
     "Notes/Machine Learning/Support Vector Machines.md",
+    "MOCs/_010 Machine Learning MOC.md",
+    "Notes/Meetings/Kick-Off Meeting with Prof Kenny.md",
     "Notes/Machine Learning/Markov Decision Process.md",
     "Notes/Machine Learning/Optimization in Machine Learning.md",
-    "MOCs/_010 Machine Learning MOC.md",
     "Notes/Machine Learning/Linear Classification.md",
     "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf",
     "Notes/Machine Learning/Ridge Regression.md",
-    "Notes/Meetings/Kick-Off Meeting with Prof Kenny.md",
     "Attachments/Pasted image 20230626223636.png",
     "Attachments/PDF Notes/ML Course Notes/10-SVM2.pdf",
     "Attachments/PDF Notes/ML Course Notes/09-SVM.pdf",
     "Notes/Machine Learning/Linear Regression.md",
-    "Notes/File Systems.md",
     "Attachments/4 1.png",
-    "Attachments/Pasted image 20230622141425.png",
-    "Attachments/Pasted image 20230622141343.png",
     "Attachments/PDF Notes/CSE Course Notes/ch10-2021-release.pdf",
     "Notes/Computer Engineering/Deadlocks.md",
-    "Attachments/Pasted image 20230622123235.png",
     "Notes/Interests/Docker Cheatsheet.md",
     "Attachments/PDF Notes/ML Course Notes/08-RL.pdf",
     "Attachments/PDF Notes/ML Course Notes/07-MDP.pdf",
@@ -181,7 +189,6 @@
     "Notes/Machine Learning/K-Clustering.md",
     "Attachments/PDF Notes/ML Course Slides/05-KMeans-Slides.pdf",
     "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
-    "MOCs/_020 Computer Engineering MOC.md",
     "Notes/Computer Engineering/Processes and Threads.md",
     "Attachments/PDF Notes/CSE Course Notes/ch6-2021-release.pdf",
     "MOCs/Computer Vision MOC.md",
@@ -192,8 +199,6 @@
     "2) Data Driven World/week 5/Breadth First Search.md",
     "2) Data Driven World/week 5/Depth First Search.md",
     "2) Data Driven World/week 5/Inheritance.md",
-    "2) Data Driven World/week 5/Graphs.md",
-    "1) Modelling Uncertainty/week 1/Probability and Statistics.md",
-    "1) Modelling Uncertainty/week 1/Summarizing Data.md"
+    "2) Data Driven World/week 5/Graphs.md"
   ]
 }

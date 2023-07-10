@@ -86,7 +86,7 @@ The index node table is the file version of a [[Processes and Threads#Process Co
 
 With reference to the file system data structure, there are some interesting scenarios to consider.
 
-## Many to One Relationships
+#### Many to One Relationships
 
 #### Multiple processes that open the same file
 
@@ -104,6 +104,98 @@ A single process may have multiple file descriptors (done using dup()) to refere
 
 This is only possible by calling the ==open() system call== from multiple processes. **Open() system calls always creates a new entry in the SWOFT**. This makes sense when you think about multiple processes reading the same file but at different locations. ie. There can be multiple instances of the opened file that is looking at a different piece of information (different CP) within the same file.
 
+
+## File Links
+
+#### Hard Links
+
+1. A hard link to a file increases the reference count to the [[File Systems#Inode Table (File Control Block / FCB)|inode table]] entry.
+2. A file must have a hard link for us to access it.
+3. "." and ".." are special hard links that cannot be created by the user.
+4. UNIX-like systems **cannot have a circular reference.**
+
+Note: "." operator also increases the reference count by 1. This implies that whenever a subdirectory is created, it's reference count is 2 because parent points to it and the subdirectory points to itself with ".". This also means that the parent will increase it's reference count by 1 for each sub directory.
+
+If it is'nt obvious, "." refers to itself (like current directory) and ".." refers to the parent.
+
+#### Symbolic Links
+
+1. Symbolic links are files! They follow the characteristics of a file -> have attributes, name and an entry in the inode table.
+2. Symbolic links contain text that is automatically interpreted by the system to go to that location. Essentially a shortcut!
+3. These links do not add to the reference count of the file they are linking to.
+4. Removing the file (hard links) to the destination file will break the symbolic link (it no longer works) but recreating the same file back with the same name and directory will make it work again! 
+
 ---
 
 # Directories
+
+**Formal Definition:** Directories are the file system that references (using meta data) to organize files in a path (structured name space - a set of symbols to refer to an object. ie files). 
+
+**Searching for Files:** The file system driver uses the directories to look for files. Since directories are also "files", the system will recursively look for the files starting from the root node.
+
+**Purpose:** Efficiency, User friendly experience, Organization, File naming.
+
+## Permissions on Directories
+
+![[2023-06-02-21-47-40.png]]
+
+The **"x" bit** on a directory indicates whether the user can access the inode information of the files within the directory. Not being able to access this information = cannot open the file.
+
+The **"r" bit** allows us to view the directory's content - the files/directories existing in the current directory.
+
+Note: cannot access a file directly inside a directory with no "x" bit permission granted.
+
+**Modifying and/or accessing directories:**
+1. Create/delete a file or sub-directory
+2. List a directory
+3. Rename a file
+4. Search for a file
+5. Traverse the file system
+
+---
+
+## Directory Structures
+
+**Single Level**: all files are in the same directory
+![[7.png]]
+
+Note: All the files are in the same name space --> must have unique name which makes this system hard to use.
+
+
+**Two Level**: Allow separate directories for different users.
+![[8 1.png]]
+
+Note: Can have different names in different local user directories. Deleting a file will be from the current user's local directory.
+
+**Tree Structured:** Only one path to reach each file.
+![[9 1.png]]
+
+Note: As the tree grows, the full path name can be super long --> not user friendly. Since there are many "levels" of directories, the tree structured system also introduces the idea of the "working directory" - our current directory.
+
+**absolute path:** path name begins at the root
+**relative path:** path begins from working directory.
+
+
+## Acyclic Structures
+
+![[22.png]]
+
+Symbolic and hard links can refer to the same file but with different names. Files are only removed if the reference count (number of hard links) falls to 0.
+
+
+## Issues with Cyclical Structures
+
+![[23.png]]
+
+Cycles can exist due to symbolic or hard links. This can potentially cause an infinite loop! This can be resolved by limiting the number of directories traversed when searching.
+
+The real issue is in **Self Referencing.**
+
+Recall that a file/directory (and all subsequent files) are only deleted if the reference count > 0. Self-referencing nodes will not allow itself to be deleted even if the parent's hard link is broken.
+
+![[24.png]]
+
+Hence, we are stuck with inaccessible files in the system that piles up like garbage. This is usually resolved with other garbage collection protocols.
+
+
+---
