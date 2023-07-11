@@ -4,37 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "060bdc1be0e473cd",
+        "id": "a978f03cb780015b",
         "type": "tabs",
         "children": [
-          {
-            "id": "a17cd5b360ed7ac5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOCs/_030 Software Engineering MOC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
           {
             "id": "91d2ae862953ca80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Tests in Software Engineering.md",
+                "file": "Attachments/PDF Notes/SE Course Notes/week 9/Cohort Exercise 9.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "13d41421adf631ba",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/PDF Notes/SE Course Notes/week 9/Week 9B.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5026054382324
+    "width": 292,
+    "collapsed": true
   },
   "right": {
     "id": "35eb7310ba541277",
@@ -127,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Tests in Software Engineering.md",
+                "file": "Attachments/PDF Notes/SE Course Notes/week 9/Cohort Exercise 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Tests in Software Engineering.md"
+                "file": "Attachments/PDF Notes/SE Course Notes/week 9/Cohort Exercise 9.md"
               }
             }
           }
@@ -153,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254
+    "width": 245
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,10 +166,16 @@
   },
   "active": "91d2ae862953ca80",
   "lastOpenFiles": [
+    "Attachments/PDF Notes/SE Course Notes/week 9/Week 9B.pdf",
+    "Attachments/PDF Notes/SE Course Notes/week 9/Cohort Exercise 9.md",
+    "Notes/Tests in Software Engineering.md",
+    "Attachments/Pasted image 20230711170545.png",
+    "Attachments/Pasted image 20230711170518.png",
+    "MOCs/_030 Software Engineering MOC.md",
+    "Notes/temp.md",
+    "Attachments/PDF Notes/HASS Chinese Short Fiction/week 10/the_murders_in_the_rue_morgue.pdf",
     "Attachments/Pasted image 20230710142258.png",
     "Attachments/Pasted image 20230710141854.png",
-    "MOCs/_030 Software Engineering MOC.md",
-    "Notes/Tests in Software Engineering.md",
     "Notes/Software Engineering/Software Development Process.md",
     "Notes/File Systems.md",
     "Attachments/24.png",
@@ -181,8 +184,6 @@
     "Attachments/9 1.png",
     "Attachments/8 1.png",
     "Attachments/7 1.png",
-    "Attachments/7.png",
-    "Attachments/2023-06-02-21-47-40.png",
     "MOCs/_020 Computer Engineering MOC.md",
     "Notes/Machine Learning/Support Vector Machines.md",
     "MOCs/_010 Machine Learning MOC.md",
@@ -192,7 +193,6 @@
     "Notes/Machine Learning/Linear Classification.md",
     "Attachments/PDF Notes/ML Course Notes/05-KMeansClustering.pdf",
     "Notes/Machine Learning/Ridge Regression.md",
-    "Attachments/Pasted image 20230626223636.png",
     "Attachments/PDF Notes/ML Course Notes/10-SVM2.pdf",
     "Attachments/PDF Notes/ML Course Notes/09-SVM.pdf",
     "Notes/Machine Learning/Linear Regression.md",
@@ -206,13 +206,10 @@
     "Attachments/PDF Notes/ML Course Slides/05-KMeans-Slides.pdf",
     "Notes/Computer Engineering/Synchronization Problems in Computer Systems.md",
     "Notes/Computer Engineering/Processes and Threads.md",
-    "Attachments/PDF Notes/CSE Course Notes/ch6-2021-release.pdf",
     "MOCs/Computer Vision MOC.md",
     "Notes/Computer Engineering/System Calls.md",
     "Attachments/PDF Notes/SE Course Notes/week 5/CE5_1005923.md",
     "3) Design Energy Systems/week 4/Exergy.md",
-    "1) Modelling Uncertainty/week 4/Bayes Theorem.md",
-    "2) Data Driven World/week 5/Breadth First Search.md",
-    "2) Data Driven World/week 5/Depth First Search.md"
+    "1) Modelling Uncertainty/week 4/Bayes Theorem.md"
   ]
 }
