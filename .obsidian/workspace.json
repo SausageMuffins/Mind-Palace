@@ -16,7 +16,7 @@
                 "file": "Notes/Networks.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           }
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292,
-    "collapsed": true
+    "width": 292
   },
   "right": {
     "id": "35eb7310ba541277",
@@ -140,7 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245
+    "width": 341
   },
   "left-ribbon": {
     "hiddenItems": {
