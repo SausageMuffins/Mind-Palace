@@ -8,11 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6d17cb41a60a3961",
+            "id": "23bcea6ce9bcf34f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Networks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -109,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Notes/Networks.md"
+              }
             }
           }
         ],
@@ -146,8 +154,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6d17cb41a60a3961",
+  "active": "23bcea6ce9bcf34f",
   "lastOpenFiles": [
+    "Notes/Networks.md",
     "Attachments/PDF Notes/SE Course Notes/week 9/Week 9B.pdf",
     "Attachments/PDF Notes/SE Course Notes/week 9/Cohort Exercise 9.md",
     "Notes/Tests in Software Engineering.md",
